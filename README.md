@@ -1,6 +1,6 @@
 # Web Scraper with Proxy Support
 
-This sophisticated web scraper is designed to fetch search results from specified websites using a robust proxy rotation mechanism. Built using Python, it leverages powerful libraries such as `requests`, `BeautifulSoup`, `concurrent.futures`, and `fake_useragent` to perform efficient and stealthy web scraping.
+This web scraper is designed to fetch search results from specified websites using a robust proxy rotation mechanism. Built using Python, it leverages powerful libraries such as `requests`, `BeautifulSoup`, `concurrent.futures`, and `fake_useragent` to perform efficient and stealthy web scraping.
 
 ## Introduction
 
@@ -22,31 +22,10 @@ This project is used for crawling papers that acknowledged the use of NYU HPC Gr
 Ensure you have Python 3.6 or higher installed on your system.
 
 ### Required Packages
-
-Install the necessary Python packages using:
-
-```sh
-pip install -r requirements.txt
-```
-
-**Contents of `requirements.txt`:**
-
-```plaintext
-requests
-beautifulsoup4
-fake_useragent
-tqdm
-```
-
-### Installation
-
-Clone the repository and install the required packages:
-
-```sh
-git clone https://github.com/yourusername/web-scraper-with-proxy-support.git
-cd web-scraper-with-proxy-support
-pip install -r requirements.txt
-```
+pip install requests
+pip install beautifulsoup4
+pip install fake_useragent
+pip install tqdm
 
 ## Usage
 
