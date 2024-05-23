@@ -179,10 +179,3 @@ load_progress()` function loads the progress from the JSON file if it exists. Th
 ### Main Function
 
 - The `main()` function orchestrates the entire scraping process. It manages loading progress, getting user input, fetching search results, and writing results to CSV. It ensures that the script can resume from the last saved page or start a new search based on user input.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-```
-
-This README now includes an additional section explaining the main logic for different publication search engines, covering the base URL, proxy validation, and parsing logic.
