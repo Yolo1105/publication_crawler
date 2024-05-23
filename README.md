@@ -44,69 +44,68 @@ This project is a web scraper designed to fetch search results from a specified 
 
 2. Follow the prompts to resume from the last saved page or start a new search.
 
-### Parameters
+## Working Process and Logic
 
-- **query**: The search query to fetch results for (default is "machine learning").
-- **base_url**: The base URL of the website to fetch results from (default is "https://www.microsoft.com/en-us/research/project/academic/").
-- **query_param**: The query parameter name used in the search URL (default is 'q').
+### 1. Logging Setup
 
-### Logging
+- The script starts by setting up logging to a file named with the current date (e.g., `2024-05-23.log`).
+- If the log file does not exist, it creates a new one.
 
-The script logs activities and errors to a file with a date-based filename (e.g., `2024-05-23.log`). The log file is created in the same directory as the script.
+### 2. Generate a Random User Agent
 
-### CSV Output
+- The script uses the `fake_useragent` library to generate a random user agent for each request to avoid detection.
 
-The search results are saved to a CSV file with a date-based filename (e.g., `2024-05-23_results.csv`). The CSV file is created in the same directory as the script.
+### 3. Scrape Proxies
 
-## Functions
+- The `scrape_proxies()` function scrapes a list of free proxies from a specified proxy listing website (`https://www.sslproxies.org/`).
+- It extracts proxy IP and port from the table on the website and returns a list of proxies.
 
-### scrape_proxies()
+### 4. Validate Proxies
 
-Scrapes proxies from a free proxy listing website and returns a list of proxies.
+- The `validate_proxy(proxy)` function checks if a proxy is functional by making a request to Microsoft Academic.
+- It returns `True` if the proxy is valid, otherwise logs errors and returns `False`.
 
-### validate_proxy(proxy)
+### 5. Get Valid Proxies
 
-Validates a proxy by making a request to Microsoft Academic and returns `True` if the proxy is functional.
+- The `get_valid_proxies(proxies)` function validates a list of proxies concurrently using `ThreadPoolExecutor`.
+- It returns a list of valid proxies.
 
-### get_valid_proxies(proxies)
+### 6. Fetch Search Results
 
-Returns a list of valid proxies by checking each one concurrently.
+- The `fetch_search_results(base_url, query, query_param, total_pages, start_page, valid_proxies)` function manages fetching search results.
+- It uses valid proxies to make requests and fetch search results for the specified query.
+- If no valid proxies are available, it scrapes and validates new proxies.
 
-### get_random_proxy(valid_proxies)
+### 7. Fetch Page Results
 
-Selects a random proxy from the list of valid proxies.
+- The `fetch_page_results(base_url, query, query_param, page, valid_proxies)` function fetches search results from a single page.
+- It selects a random proxy from the list of valid proxies and makes a request to fetch the HTML content.
+- If the request fails, it retries up to 5 times with different proxies.
 
-### fetch_search_results(base_url, query, query_param, total_pages, start_page, valid_proxies)
+### 8. Parse Results
 
-Fetches search results from the specified website for a given query starting from a specific page.
+- The `parse_results(html)` function parses the HTML content to extract search results.
+- It looks for specific HTML elements that contain the search results and extracts the title and link for each result.
 
-### fetch_page_results(base_url, query, query_param, page, valid_proxies)
+### 9. Write Results to CSV
 
-Fetches search results from a single page of the specified website.
+- The `write_to_csv(results_data)` function writes the extracted search results to a CSV file.
+- The CSV file is named with the current date (e.g., `2024-05-23_results.csv`).
 
-### parse_results(html)
+### 10. Save and Load Progress
 
-Parses HTML content to extract search results from Microsoft Academic.
+- The `save_progress(base_url, query, query_param, total_pages, current_page, results_data)` function saves the current progress to a JSON file (`progress.json`).
+- The `load_progress()` function loads the progress from the JSON file if it exists.
 
-### write_to_csv(results_data)
+### 11. Get User Input
 
-Writes search results to a CSV file.
+- The `get_user_input()` function prompts the user to resume from the last saved page or start a new search.
+- The `get_page_input()` function prompts the user to enter the starting page and total number of pages to crawl.
 
-### save_progress(base_url, query, query_param, total_pages, current_page, results_data)
+### 12. Main Function
 
-Saves the current progress to a JSON file.
-
-### load_progress()
-
-Loads progress from a JSON file if it exists.
-
-### get_user_input()
-
-Gets user input for resuming or starting a new search.
-
-### get_page_input()
-
-Gets user input for starting page and total pages.
+- The `main()` function orchestrates the entire scraping process.
+- It manages loading progress, getting user input, fetching search results, and writing results to CSV.
 
 ## License
 
