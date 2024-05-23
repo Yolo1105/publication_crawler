@@ -2,6 +2,10 @@
 
 This sophisticated web scraper is designed to fetch search results from specified websites using a robust proxy rotation mechanism. Built using Python, it leverages powerful libraries such as `requests`, `BeautifulSoup`, `concurrent.futures`, and `fake_useragent` to perform efficient and stealthy web scraping.
 
+## Introduction
+
+This project is used for crawling papers that acknowledged the use of NYU HPC Greene. Specifically, it aims to find publications that include the statement: "This work was supported in part through the NYU IT High Performance Computing resources, services, and staff expertise."
+
 ## Features
 
 - Automatically scrapes and validates proxies from free proxy listing websites.
@@ -93,6 +97,65 @@ Detailed logging is configured to capture all operational activities. The logs a
 - **Proxy Management:** The script dynamically manages proxies by scraping, validating, and rotating them to maintain uninterrupted access and avoid detection.
 - **User Agent Rotation:** Random user agents are generated for each request to mimic diverse browsing patterns.
 
+## Ongoing Development
+
+The current version of the web scraper is tailored for specific search engines for publications. The following modules are available for use:
+
+- `google_crawler.py`
+- `IEEE_Xplore.py`
+- `microsoft_academic_crawler.py`
+- `semantic_scholar.py`
+- `google_scholar_crawler.py`
+
+These modules can be used to crawl search results from the respective platforms. However, a more generalized crawler is still in development to support a wider range of websites and use cases.
+
+## Main Logic for Different Publication Search Engines
+
+Each publication search engine requires a specific approach for crawling data. Here are the main components:
+
+### Base URL
+
+Each module is configured with a base URL specific to the search engine. This base URL is used to construct the search query URLs.
+
+- **Google Scholar:** `https://scholar.google.com/scholar`
+- **IEEE Xplore:** `https://ieeexplore.ieee.org/search/searchresult.jsp`
+- **Microsoft Academic:** `https://academic.microsoft.com/search`
+- **Semantic Scholar:** `https://www.semanticscholar.org/search`
+- **Google:** `https://www.google.com/search`
+
+### Proxy Validation
+
+To avoid IP blocking, proxies are validated before use. The validation process involves:
+
+1. **Scraping Proxies:** Proxies are scraped from free proxy listing websites like `https://www.sslproxies.org/`.
+2. **Testing Proxies:** Each proxy is tested by making a request to the respective search engine. If the request is successful, the proxy is considered valid.
+3. **Rotating Proxies:** Valid proxies are rotated for each request to distribute the load and minimize the risk of detection.
+
+### Parsing Logic
+
+The parsing logic varies for each search engine, as the HTML structure and elements differ. Here’s how the parsing is generally done:
+
+- **Google Scholar:**
+  - Results are contained in `div` elements with class `gs_r gs_or gs_scl`.
+  - Title is extracted from `h3` elements with class `gs_rt`.
+  - Links are found within `a` tags inside the `h3` elements.
+
+- **IEEE Xplore:**
+  - Results are within `div` elements with class `List-results-items`.
+  - Title and links are extracted from `a` tags within these `div` elements.
+
+- **Microsoft Academic:**
+  - Results are in `li` elements with class `paper`.
+  - Title and links are extracted from `h2` elements and their child `a` tags.
+
+- **Semantic Scholar:**
+  - Results are within `div` elements with class `search-result`.
+  - Title and links are extracted from `a` tags within these `div` elements.
+
+- **Google:**
+  - Results are in `div` elements with class `g`.
+  - Title and links are found within `h3` elements and their child `a` tags.
+
 ## How It Works
 
 ### 1. Proxy and Fake IP Usage
@@ -130,7 +193,9 @@ Detailed logging is configured to capture all operational activities. The logs a
   
 - **Saving and Loading Progress:**
   - The `save_progress(base_url, query, query_param, total_pages, current_page, results_data)` function saves the current progress to a JSON file (`progress.json`). This allows the script to resume from where it left off in case of interruptions.
-  - The `load_progress()` function loads the progress from the JSON file if it exists. This enables the script to continue fetching results from the last saved page.
+  - The `
+
+load_progress()` function loads the progress from the JSON file if it exists. This enables the script to continue fetching results from the last saved page.
 
 ### Main Function
 
@@ -141,4 +206,4 @@ Detailed logging is configured to capture all operational activities. The logs a
 This project is licensed under the MIT License. See the LICENSE file for details.
 ```
 
-This README combines the content from both previous versions, ensuring all relevant details about the setup, usage, and functionality of the scraper are included. It also provides a detailed introduction to BeautifulSoup, explaining its role and importance in the data crawling process.
+This README now includes an additional section explaining the main logic for different publication search engines, covering the base URL, proxy validation, and parsing logic.
