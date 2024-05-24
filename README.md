@@ -19,27 +19,84 @@ This project is used for crawling papers that acknowledged the use of NYU HPC Gr
 
 ### Prerequisites
 
-Ensure you have Python 3.6 or higher installed on your system.
+Make sure you have the following installed:
 
-### Required Packages
-```sh
-pip install requests
-pip install beautifulsoup4
-pip install fake_useragent
-pip install tqdm
-```
+- Python (>=3.6)
+- Git
 
-## Usage
+### Installation
+
+1. **Clone the Repository**
+
+   Open your terminal and run the following command:
+
+   ```bash
+   git clone <repository_url>
+   ```
+
+   Replace `<repository_url>` with the URL of your repository.
+
+2. **Navigate to the Project Directory**
+
+   ```bash
+   cd <repository_directory>
+   ```
+
+   Replace `<repository_directory>` with the name of the directory created by cloning the repository.
+
+3. **Create a Virtual Environment**
+
+   Run the following command to create a virtual environment:
+
+   ```bash
+   python -m venv env
+   ```
+
+4. **Activate the Virtual Environment**
+
+   - On Windows:
+
+ 	```bash
+ 	.\env\Scripts\activate
+ 	```
+
+   - On macOS and Linux:
+
+ 	```bash
+ 	source env/bin/activate
+ 	```
+
+5. **Install the Required Packages**
+
+   If `requirements.txt` exists in the repository, run the following command to install the necessary packages:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+   If `requirements.txt` does not exist, create it with the following content:
+
+   ```text
+   requests
+   beautifulsoup4
+   fake_useragent
+   tqdm
+   ```
+
+   Then, install the packages:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 ### Running the Script
 
-To start the scraper:
+To execute the script, run the following command. Replace `<script_name>.py` with the actual name of the script you want to run:
 
-```sh
-python scraper.py
+```bash
+python <script_name>.py
 ```
 
-Follow the on-screen prompts to resume from a previously saved page or initiate a new search.
 
 ### Anti-Detection Strategies
 
