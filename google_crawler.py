@@ -25,27 +25,31 @@ def get_random_user_agent():
     return user_agent_cache.random
 
 def scrape_proxies():
-    # Scrapes proxies from a free proxy listing website
-    url = 'https://www.sslproxies.org/'  
-    response = requests.get(url)
-    soup = BeautifulSoup(response.content, 'html.parser')
+    # Scrapes proxies from multiple free proxy listing websites
+    proxy_sites = [
+        'https://www.sslproxies.org/',
+        'https://free-proxy-list.net/'
+    ]
     proxies = []
-    
-    # Extract proxy IP and port from the table
-    rows = soup.select('table.table tbody tr')
-    for row in rows:
+    for url in proxy_sites:
         try:
-            cells = row.find_all('td')
-            if len(cells) >= 2:
-                ip = cells[0].text.strip()
-                port = cells[1].text.strip()
-                proxy = f'{ip}:{port}'
-                proxies.append(proxy)
-            else:
-                logging.warning("Row does not contain enough cells")
-        except Exception as e:
-            logging.error(f"Error parsing row: {e}")
-    
+            response = requests.get(url)
+            soup = BeautifulSoup(response.content, 'html.parser')
+            rows = soup.select('table.table tbody tr')
+            for row in rows:
+                try:
+                    cells = row.find_all('td')
+                    if len(cells) >= 2:
+                        ip = cells[0].text.strip()
+                        port = cells[1].text.strip()
+                        proxy = f'{ip}:{port}'
+                        proxies.append(proxy)
+                    else:
+                        logging.warning("Row does not contain enough cells")
+                except Exception as e:
+                    logging.error(f"Error parsing row: {e}")
+        except requests.RequestException as e:
+            logging.error(f"Failed to fetch proxies from {url}: {e}")
     return proxies
 
 def validate_proxy(proxy):
@@ -58,19 +62,14 @@ def validate_proxy(proxy):
     try:
         response = requests.get(url, proxies=proxies, timeout=5)
         return response.status_code == 200
-    except requests.exceptions.SSLError as e:
-        logging.error(f"SSL error for proxy {proxy}: {e}")
-    except requests.exceptions.ProxyError as e:
-        logging.error(f"Proxy error for proxy {proxy}: {e}")
     except requests.exceptions.RequestException as e:
-        logging.error(f"General error for proxy {proxy}: {e}")
+        logging.error(f"Proxy error for proxy {proxy}: {e}")
     return False
 
 def get_valid_proxies(proxies):
     # Returns a list of valid proxies by checking each one
     valid_proxies = []
     with ThreadPoolExecutor(max_workers=10) as executor:
-        # Validate proxies concurrently
         future_to_proxy = {executor.submit(validate_proxy, proxy): proxy for proxy in proxies}
         for future in tqdm(as_completed(future_to_proxy), total=len(future_to_proxy), desc="Validating proxies", leave=True):
             proxy = future_to_proxy[future]
@@ -79,6 +78,8 @@ def get_valid_proxies(proxies):
                     valid_proxies.append(proxy)
             except Exception as e:
                 logging.error(f"Proxy validation failed: {e}")
+    if not valid_proxies:
+        logging.error("No valid proxies found.")
     return valid_proxies
 
 def get_random_proxy(valid_proxies):
@@ -141,6 +142,17 @@ def fetch_page_results(base_url, query, query_param, page, valid_proxies):
                 logging.info(f"Removed invalid proxy: {proxy}")
             time.sleep(random.uniform(5, 15))
     
+    # If all retries fail, attempt to fetch without proxy
+    if not success:
+        try:
+            response = requests.get(base_url, params=params, headers=headers, timeout=10)
+            response.raise_for_status()
+            html_content = response.text
+            logging.info(f"Fetched HTML content for page {page} without proxy")
+            results_data = parse_results(html_content)
+        except requests.RequestException as e:
+            logging.error(f"Final request failed: {e}")
+
     return results_data
 
 def parse_results(html):

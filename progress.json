@@ -1,1 +1,1 @@
-{"base_url": "https://www.google.com/search", "query": "This work was supported in part through the NYU IT High Performance Computing resources, services, and staff expertise", "query_param": "q", "total_pages": 10, "current_page": 0, "results_data": []}
+{"config": {"base_url": "https://scholar.google.com", "query_param": "q", "parsing_rules": {"result_selector": "div.gs_r.gs_or.gs_scl", "title_selector": "h3.gs_rt", "link_selector": "h3.gs_rt > a", "link_prefix": null}}, "query": "https://scholar.google.com", "total_pages": 10, "current_page": 10, "results_data": []}

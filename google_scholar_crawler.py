@@ -48,22 +48,19 @@ def scrape_proxies():
     
     return proxies
 
-def validate_proxy(proxy):
+def validate_proxy(proxy, retry_count=3):
     # Validates a proxy by making a request to Google Scholar
     url = 'http://scholar.google.com'
     proxies = {
         'http': f'http://{proxy}',
-        'https': f'https://{proxy}'
     }
-    try:
-        response = requests.get(url, proxies=proxies, timeout=5)
-        return response.status_code == 200
-    except requests.exceptions.SSLError as e:
-        logging.error(f"SSL error for proxy {proxy}: {e}")
-    except requests.exceptions.ProxyError as e:
-        logging.error(f"Proxy error for proxy {proxy}: {e}")
-    except requests.exceptions.RequestException as e:
-        logging.error(f"General error for proxy {proxy}: {e}")
+    for attempt in range(retry_count):
+        try:
+            response = requests.get(url, proxies=proxies, timeout=10)
+            return response.status_code == 200
+        except requests.exceptions.RequestException as e:
+            logging.error(f"Error for proxy {proxy}: {e}")
+        time.sleep(5 * (attempt + 1))  # Exponential backoff
     return False
 
 def get_valid_proxies(proxies):
@@ -110,19 +107,19 @@ def fetch_search_results(base_url, query, query_param, total_pages=10, start_pag
 
     return results_data
 
-def fetch_page_results(base_url, query, query_param, page, valid_proxies):
+def fetch_page_results(base_url, query, query_param, page, valid_proxies, retry_count=3):
     # Fetches search results from a single page of the specified website
     start = page * 10
     params = {query_param: query, 'start': start}
     headers = {'User-Agent': get_random_user_agent()}
     
     success = False
-    retries = 5
+    retries = retry_count
     results_data = []
     
     while not success and retries > 0:
         proxy = get_random_proxy(valid_proxies)
-        proxies = {'http': f'http://{proxy}', 'https': f'https://{proxy}'} if proxy else None
+        proxies = {'http': f'http://{proxy}'} if proxy else None
         try:
             response = requests.get(base_url, params=params, headers=headers, proxies=proxies, timeout=10)
             response.raise_for_status()
@@ -139,7 +136,7 @@ def fetch_page_results(base_url, query, query_param, page, valid_proxies):
             if proxy in valid_proxies:
                 valid_proxies.remove(proxy)
                 logging.info(f"Removed invalid proxy: {proxy}")
-            time.sleep(random.uniform(5, 15))
+            time.sleep(5 * (retry_count - retries))  # Exponential backoff
     
     return results_data
 
