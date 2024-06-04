@@ -11,6 +11,10 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from tqdm import tqdm
 from datetime import datetime
 
+# Ensure the logs and results directories exist
+os.makedirs('logs', exist_ok=True)
+os.makedirs('results', exist_ok=True)
+
 # Setup logging to file with date-based filename
 log_date = datetime.now().strftime("%Y-%m-%d")
 log_filename = f"{log_date}.log"
@@ -53,7 +57,6 @@ def scrape_proxies():
     return proxies
 
 def validate_proxy(proxy):
-    # Validates a proxy by making a request to Google
     url = 'http://www.google.com'
     proxies = {
         'http': f'http://{proxy}',

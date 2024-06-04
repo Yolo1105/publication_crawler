@@ -1,0 +1,9 @@
+# Ignore logs directory
+logs/
+
+# Ignore Python environment directory
+env/
+
+.git/
+
+.results/
