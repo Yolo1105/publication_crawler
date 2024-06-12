@@ -1,13 +1,11 @@
 import os
-import requests
-from bs4 import BeautifulSoup
 import csv
-import time
 import random
 import logging
 import json
 import asyncio
 import aiohttp
+from bs4 import BeautifulSoup
 from fake_useragent import UserAgent
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor
@@ -38,11 +36,18 @@ async def fetch_page(session, url, params, headers):
                 response.raise_for_status()
                 html_content = await response.text()
                 return html_content
-        except (aiohttp.ClientError, aiohttp.http_exceptions.HttpProcessingError) as e:
+        except (aiohttp.ClientError, aiohttp.http_exceptions.HttpProcessingError, asyncio.TimeoutError) as e:
             retries -= 1
             logging.error(f"Request failed (retries left: {retries}): {e}")
             await asyncio.sleep(random.uniform(5, 15))
     return None
+
+def parse_mla_citation(html):
+    soup = BeautifulSoup(html, 'html.parser')
+    mla_citation_div = soup.find('div', class_='gs_citr')
+    if mla_citation_div:
+        return mla_citation_div.text.strip()
+    return "MLA citation not found"
 
 def parse_results(html):
     soup = BeautifulSoup(html, 'html.parser')
@@ -57,53 +62,65 @@ def parse_results(html):
         title = title_tag.text.strip() if title_tag else "Title not found"
         link = title_tag.a['href'] if title_tag and title_tag.a else "Link not found"
         
-        results_data.append({'Title': title, 'Link': link})
+        mla_citation = parse_mla_citation(str(result))
+        
+        results_data.append({'Title': title, 'Link': link, 'MLA Citation': mla_citation})
     
     logging.info(f"Parsed results: {results_data}")
     return results_data
 
-async def fetch_search_results(session, query, start_page, end_page):
+async def fetch_search_results(session, query, start_page, end_page, progress_bar):
     base_url = "https://scholar.google.com/scholar"
     query_param = 'q'
-    results_data = []
     headers = {'User-Agent': get_random_user_agent()}
 
+    results_data = []
+
     tasks = []
-    for page in range(start_page, end_page):
-        params = {query_param: query, 'start': page * 10}
+    for page in range(start_page, end_page + 1):
+        params = {query_param: query, 'start': (page - 1) * 10}
         tasks.append(fetch_page(session, base_url, params, headers))
-    
-    for page_content in tqdm(asyncio.as_completed(tasks), total=len(tasks), desc=f"Fetching pages {start_page} to {end_page - 1}", leave=True):
-        page_content = await page_content
+
+    for task in tqdm(asyncio.as_completed(tasks), total=len(tasks), desc=f"Fetching pages {start_page} to {end_page}", leave=True):
+        page_content = await task
         if page_content:
             page_results = parse_results(page_content)
             results_data.extend(page_results)
+        progress_bar.update(1)
 
     return results_data
 
-def write_to_csv(results_data):
+def load_existing_csv_data(csv_filename):
+    existing_data = set()
+    if os.path.exists(csv_filename):
+        with open(csv_filename, mode='r', encoding='utf-8') as file:
+            reader = csv.DictReader(file)
+            for row in reader:
+                existing_data.add((row['Title'], row['Link'], row['MLA Citation']))
+    return existing_data
+
+def write_to_csv(results_data, csv_filename):
     if not results_data:
         logging.warning("No data to write to CSV.")
         return
 
-    csv_date = datetime.now().strftime("%Y-%m-%d")
-    csv_filename = f"results/{csv_date}_results.csv"
-    file_exists = os.path.isfile(csv_filename)
+    existing_data = load_existing_csv_data(csv_filename)
     
-    print(f"Results Data: {results_data}")  # Debugging statement
+    new_data = [result for result in results_data if (result['Title'], result['Link'], result['MLA Citation']) not in existing_data]
+
+    if not new_data:
+        logging.info("No new data to write to CSV.")
+        return
     
     with open(csv_filename, mode='a', newline='', encoding='utf-8') as file:
-        fieldnames = ['Title', 'Link']
+        fieldnames = ['Title', 'Link', 'MLA Citation']
         writer = csv.DictWriter(file, fieldnames=fieldnames)
         
-        if not file_exists:
+        if not os.path.exists(csv_filename) or os.path.getsize(csv_filename) == 0:
             writer.writeheader()
         
-        for result in results_data:
+        for result in new_data:
             writer.writerow({field: result[field] for field in fieldnames})
-
-    logging.info(f"Results written to CSV: {csv_filename}")
-    print(f"Results written to CSV: {csv_filename}")
 
 def save_progress(query, total_pages, current_page, results_data):
     progress = {
@@ -135,37 +152,23 @@ def get_user_input():
 
 def get_page_input():
     while True:
-        start_page = input("Enter the starting page (0 for the first page): ").strip()
+        start_page = input("Enter the starting page (1 for the first page): ").strip()
         total_pages = input("Enter the total number of pages to crawl: ").strip()
         if start_page.isdigit() and total_pages.isdigit():
             return int(start_page), int(total_pages)
         else:
             print("Invalid input. Please enter integer values for starting page and total pages.")
 
-async def get_total_pages(query):
-    base_url = "https://scholar.google.com/scholar"
-    query_param = 'q'
-    headers = {'User-Agent': get_random_user_agent()}
-    params = {query_param: query, 'start': 0}
-
+async def crawl_pages(query, start_page, end_page, results_data, progress_bar):
     async with aiohttp.ClientSession() as session:
-        html_content = await fetch_page(session, base_url, params, headers)
-        if html_content:
-            soup = BeautifulSoup(html_content, 'html.parser')
-            result_stats = soup.find('div', id='gs_ab_md')
-            if result_stats:
-                text = result_stats.get_text()
-                total_results = int(text.split()[1].replace(',', '').replace('.', ''))
-                total_pages = (total_results // 10) + 1
-                return total_pages
-    return 0
+        page_results = await fetch_search_results(session, query, start_page, end_page, progress_bar)
+        results_data.extend(page_results)
+
+def run_crawl_pages(query, start_page, end_page, results_data, progress_bar):
+    asyncio.run(crawl_pages(query, start_page, end_page, results_data, progress_bar))
 
 async def main():
     query = "This work was supported in part through the NYU IT High Performance Computing resources, services, and staff expertise"
-
-    loop = asyncio.get_event_loop()
-    total_pages = await get_total_pages(query)
-    print(f"Total number of pages to crawl: {total_pages}")
 
     progress = load_progress()
     if progress and progress['query'] == query:
@@ -173,6 +176,7 @@ async def main():
         if get_user_input():
             start_page = progress['current_page']
             results_data = progress['results_data']
+            total_pages = progress['total_pages']
             logging.info(f"Resuming fetching search results for query: {query} from page {start_page}")
         else:
             start_page, total_pages = get_page_input()
@@ -184,30 +188,28 @@ async def main():
         results_data = []
         logging.info(f"Starting to fetch search results for query: {query} from page {start_page}")
 
-    num_threads = 5
-    pages_per_thread = total_pages // num_threads
-    tasks = []
-    async with aiohttp.ClientSession() as session:
-        with ThreadPoolExecutor(max_workers=num_threads) as executor:
-            for i in range(num_threads):
-                start = start_page + i * pages_per_thread
-                end = start + pages_per_thread
-                if i == num_threads - 1:
-                    end = start_page + total_pages  # Make sure the last thread covers any remaining pages
-                tasks.append(loop.run_in_executor(executor, asyncio.ensure_future, fetch_search_results(session, query, start, end)))
-            
-            results = await asyncio.gather(*tasks)
-            for result in results:
-                results_data.extend(result)
+    progress_bar = tqdm(total=total_pages, desc="Overall Progress", leave=True)
+
+    middle_page = start_page + (total_pages // 2) - 1
+    end_page = start_page + total_pages - 1
+
+    with ThreadPoolExecutor(max_workers=2) as executor:
+        executor.submit(run_crawl_pages, query, start_page, middle_page, results_data, progress_bar)
+        executor.submit(run_crawl_pages, query, middle_page + 1, end_page, results_data, progress_bar)
+
+    # Wait for all threads to complete
+    executor.shutdown(wait=True)
 
     if results_data:
         logging.info(f"Fetched {len(results_data)} results.")
     else:
         logging.warning("No results fetched.")
     
-    write_to_csv(results_data)
-    save_progress(query, total_pages, start_page + total_pages, results_data)
-    logging.info("Results written to CSV and progress saved")
+    csv_date = datetime.now().strftime("%Y-%m-%d")
+    write_to_csv(results_data, f'results/{csv_date}_results.csv')
+    write_to_csv(results_data, 'results/google_scholar.csv')
+    save_progress(query, total_pages, end_page, results_data)
+    progress_bar.close()
 
 if __name__ == "__main__":
     asyncio.run(main())
