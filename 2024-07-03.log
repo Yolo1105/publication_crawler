@@ -1,0 +1,768 @@
+2024-07-03 11:25:06,647 - INFO - Starting to fetch search results for query: This work was supported in part through the NYU IT High Performance Computing resources, services, and staff expertise from page 0
+2024-07-03 11:25:08,097 - WARNING - Row does not contain enough cells
+2024-07-03 11:25:09,345 - WARNING - Row does not contain enough cells
+2024-07-03 11:25:11,172 - WARNING - Row does not contain enough cells
+2024-07-03 11:25:12,705 - ERROR - Connection refused for proxy 114.129.2.82:8081
+2024-07-03 11:25:12,879 - ERROR - Connection refused for proxy 172.183.241.1:8080
+2024-07-03 11:25:13,187 - ERROR - Connection refused for proxy 47.236.54.118:3128
+2024-07-03 11:25:13,419 - ERROR - Connection refused for proxy 47.88.31.196:8080
+2024-07-03 11:25:13,661 - ERROR - Connection refused for proxy 35.185.196.38:3128
+2024-07-03 11:25:13,926 - ERROR - Connection refused for proxy 185.191.231.138:60517
+2024-07-03 11:25:13,987 - ERROR - Connection refused for proxy 34.73.158.50:80
+2024-07-03 11:25:14,139 - ERROR - Connection refused for proxy 47.251.70.179:80
+2024-07-03 11:25:14,264 - ERROR - Connection refused for proxy 160.86.242.23:8080
+2024-07-03 11:25:15,542 - ERROR - Connection refused for proxy 20.204.214.79:3129
+2024-07-03 11:25:15,871 - ERROR - Connection refused for proxy 8.219.97.248:80
+2024-07-03 11:25:15,959 - ERROR - Connection refused for proxy 72.10.160.172:9739
+2024-07-03 11:25:15,966 - ERROR - Connection refused for proxy 67.43.236.20:10145
+2024-07-03 11:25:15,979 - ERROR - Connection refused for proxy 67.43.227.226:30373
+2024-07-03 11:25:16,604 - ERROR - Connection refused for proxy 185.186.242.135:3128
+2024-07-03 11:25:17,454 - ERROR - Connection refused for proxy 67.43.227.230:4961
+2024-07-03 11:25:17,530 - ERROR - Connection refused for proxy 154.82.63.126:40000
+2024-07-03 11:25:17,585 - ERROR - Connection refused for proxy 34.138.56.168:80
+2024-07-03 11:25:17,600 - ERROR - Connection refused for proxy 91.142.166.74:8080
+2024-07-03 11:25:17,600 - ERROR - Connection refused for proxy 37.120.192.154:8080
+2024-07-03 11:25:17,955 - ERROR - Connection refused for proxy 95.216.147.59:3128
+2024-07-03 11:25:19,269 - ERROR - Connection refused for proxy 148.72.165.7:30135
+2024-07-03 11:25:19,339 - ERROR - Connection refused for proxy 67.43.227.227:11023
+2024-07-03 11:25:19,348 - ERROR - Connection refused for proxy 72.10.160.94:18345
+2024-07-03 11:25:19,374 - ERROR - Connection refused for proxy 67.43.228.252:10579
+2024-07-03 11:25:19,378 - ERROR - Connection refused for proxy 67.43.236.21:8307
+2024-07-03 11:25:20,117 - ERROR - Connection refused for proxy 67.43.228.253:12915
+2024-07-03 11:25:20,849 - ERROR - Connection refused for proxy 184.168.124.233:5402
+2024-07-03 11:25:21,073 - ERROR - Connection refused for proxy 67.43.228.250:26991
+2024-07-03 11:25:21,076 - ERROR - Connection refused for proxy 72.10.160.170:2657
+2024-07-03 11:25:21,178 - ERROR - Connection refused for proxy 154.82.63.28:40000
+2024-07-03 11:25:21,198 - ERROR - Connection refused for proxy 154.82.63.182:40000
+2024-07-03 11:25:21,260 - ERROR - Connection refused for proxy 154.82.63.63:40000
+2024-07-03 11:25:21,412 - ERROR - Connection refused for proxy 72.10.160.90:1365
+2024-07-03 11:25:21,452 - ERROR - Connection refused for proxy 189.240.60.164:9090
+2024-07-03 11:25:22,821 - ERROR - Connection refused for proxy 72.10.164.178:1417
+2024-07-03 11:25:22,931 - ERROR - Connection refused for proxy 154.82.63.226:40000
+2024-07-03 11:25:23,023 - ERROR - Connection refused for proxy 213.230.71.175:3128
+2024-07-03 11:25:23,037 - ERROR - Connection refused for proxy 154.82.63.52:40000
+2024-07-03 11:25:24,274 - ERROR - Connection refused for proxy 5.189.184.6:80
+2024-07-03 11:25:24,351 - ERROR - Connection refused for proxy 103.23.199.24:8080
+2024-07-03 11:25:24,367 - ERROR - Connection refused for proxy 72.10.160.92:5635
+2024-07-03 11:25:24,609 - ERROR - Connection refused for proxy 209.121.164.50:31147
+2024-07-03 11:25:24,908 - ERROR - Connection refused for proxy 72.10.160.171:10095
+2024-07-03 11:25:25,236 - ERROR - Connection refused for proxy 59.157.2.63:32304
+2024-07-03 11:25:25,852 - ERROR - Connection refused for proxy 208.87.130.154:80
+2024-07-03 11:25:25,923 - ERROR - Connection refused for proxy 148.72.140.24:30127
+2024-07-03 11:25:26,195 - ERROR - Connection refused for proxy 171.228.219.71:4000
+2024-07-03 11:25:26,272 - ERROR - Connection refused for proxy 143.107.199.248:8080
+2024-07-03 11:25:26,519 - ERROR - Connection refused for proxy 67.43.236.19:17293
+2024-07-03 11:25:26,751 - ERROR - Connection refused for proxy 72.10.160.173:5643
+2024-07-03 11:25:27,149 - ERROR - Connection refused for proxy 195.161.41.163:8080
+2024-07-03 11:25:27,362 - ERROR - Connection refused for proxy 107.151.252.196:30000
+2024-07-03 11:25:27,777 - ERROR - Connection refused for proxy 80.66.81.39:4000
+2024-07-03 11:25:28,790 - ERROR - Connection refused for proxy 20.219.176.57:3129
+2024-07-03 11:25:29,287 - ERROR - Connection refused for proxy 172.247.244.36:7777
+2024-07-03 11:25:29,364 - ERROR - Connection refused for proxy 4.155.2.13:9480
+2024-07-03 11:25:29,392 - ERROR - Connection refused for proxy 39.191.223.9:3128
+2024-07-03 11:25:29,695 - ERROR - Connection refused for proxy 152.67.9.179:8100
+2024-07-03 11:25:30,117 - ERROR - Connection refused for proxy 171.232.79.226:4010
+2024-07-03 11:25:30,246 - ERROR - Connection refused for proxy 176.100.13.15:8080
+2024-07-03 11:25:30,297 - ERROR - Connection refused for proxy 166.88.77.150:3128
+2024-07-03 11:25:30,863 - ERROR - Connection refused for proxy 46.246.80.2:8118
+2024-07-03 11:25:31,205 - ERROR - Connection refused for proxy 34.92.250.88:10000
+2024-07-03 11:25:31,282 - ERROR - Connection refused for proxy 18.197.148.29:8013
+2024-07-03 11:25:31,531 - ERROR - Connection refused for proxy 52.82.123.144:3128
+2024-07-03 11:25:32,378 - ERROR - Connection refused for proxy 81.0.197.250:5808
+2024-07-03 11:25:32,782 - ERROR - Connection refused for proxy 185.198.165.216:10001
+2024-07-03 11:25:33,802 - ERROR - Connection refused for proxy 203.189.88.156:80
+2024-07-03 11:25:34,406 - ERROR - Connection refused for proxy 5.76.151.240:18080
+2024-07-03 11:25:34,831 - ERROR - Connection refused for proxy 63.209.32.128:6868
+2024-07-03 11:25:35,258 - ERROR - Connection refused for proxy 210.178.240.246:3128
+2024-07-03 11:25:35,305 - ERROR - Connection refused for proxy 45.9.26.254:8090
+2024-07-03 11:25:35,873 - ERROR - Connection refused for proxy 176.37.83.23:26388
+2024-07-03 11:25:36,166 - ERROR - Connection refused for proxy 171.239.138.216:4013
+2024-07-03 11:25:36,213 - ERROR - Connection refused for proxy 5.35.15.87:3128
+2024-07-03 11:25:36,224 - ERROR - Connection refused for proxy 20.44.188.17:3129
+2024-07-03 11:25:36,291 - ERROR - Connection refused for proxy 185.64.208.13:53281
+2024-07-03 11:25:37,200 - ERROR - Connection refused for proxy 20.204.212.45:3129
+2024-07-03 11:25:37,275 - ERROR - Connection refused for proxy 20.44.189.184:3129
+2024-07-03 11:25:37,442 - ERROR - General error for proxy 47.96.176.130:59394: HTTPConnectionPool(host='47.96.176.130', port=59394): Read timed out. (read timeout=5)
+2024-07-03 11:25:37,799 - ERROR - Connection refused for proxy 116.109.182.84:4002
+2024-07-03 11:25:38,060 - ERROR - Connection refused for proxy 20.204.214.23:3129
+2024-07-03 11:25:38,916 - ERROR - Connection refused for proxy 2024-07-03:382
+2024-07-03 11:25:38,962 - ERROR - Connection refused for proxy 2024-07-02:395
+2024-07-03 11:25:39,292 - ERROR - Connection refused for proxy 40.113.199.101:80
+2024-07-03 11:25:39,578 - ERROR - Connection refused for proxy 185.64.208.163:53281
+2024-07-03 11:25:39,627 - ERROR - Connection refused for proxy 8.219.97.248:80
+2024-07-03 11:25:39,857 - ERROR - Connection refused for proxy 47.90.205.231:33333
+2024-07-03 11:25:39,902 - ERROR - Connection refused for proxy 2024-07-01:329
+2024-07-03 11:25:39,963 - ERROR - Connection refused for proxy 2024-06-30:384
+2024-07-03 11:25:40,000 - ERROR - Connection refused for proxy 47.245.14.204:80
+2024-07-03 11:25:40,129 - ERROR - Connection refused for proxy 114.129.2.82:8081
+2024-07-03 11:25:40,133 - ERROR - Connection refused for proxy 2024-06-29:382
+2024-07-03 11:25:40,140 - ERROR - Connection refused for proxy 162.245.85.220:80
+2024-07-03 11:25:40,220 - ERROR - Connection refused for proxy 93.177.67.178:80
+2024-07-03 11:25:40,229 - ERROR - Connection refused for proxy 95.216.147.59:3128
+2024-07-03 11:25:40,318 - ERROR - Connection refused for proxy 203.150.113.19:57322
+2024-07-03 11:25:40,466 - ERROR - Connection refused for proxy 51.210.19.141:80
+2024-07-03 11:25:40,488 - ERROR - Connection refused for proxy 373:86
+2024-07-03 11:25:40,582 - ERROR - Connection refused for proxy 34.66.223.220:80
+2024-07-03 11:25:40,653 - ERROR - Connection refused for proxy 20.193.154.130:8888
+2024-07-03 11:25:40,751 - ERROR - Connection refused for proxy 172:39
+2024-07-03 11:25:41,157 - ERROR - Connection refused for proxy 51.89.14.70:80
+2024-07-03 11:25:41,229 - ERROR - Connection refused for proxy 179.96.28.58:80
+2024-07-03 11:25:41,422 - ERROR - Connection refused for proxy 12.186.205.123:80
+2024-07-03 11:25:41,602 - ERROR - Connection refused for proxy 57:13
+2024-07-03 11:25:41,879 - ERROR - Connection refused for proxy 66.59.197.110:80
+2024-07-03 11:25:42,060 - ERROR - Connection refused for proxy 37.140.242.15:80
+2024-07-03 11:25:43,129 - ERROR - Connection refused for proxy 20.204.212.45:3129
+2024-07-03 11:25:43,383 - ERROR - Connection refused for proxy 47.88.31.196:8080
+2024-07-03 11:25:43,914 - ERROR - Connection refused for proxy 72.10.160.173:5643
+2024-07-03 11:25:44,039 - ERROR - Connection refused for proxy 1.162.14.236:80
+2024-07-03 11:25:44,148 - ERROR - Connection refused for proxy 203.74.125.18:8888
+2024-07-03 11:25:44,469 - ERROR - Connection refused for proxy 182.16.187.212:8080
+2024-07-03 11:25:44,723 - ERROR - Connection refused for proxy 159.65.77.168:8585
+2024-07-03 11:25:44,854 - ERROR - Connection refused for proxy 119.28.60.64:8090
+2024-07-03 11:25:45,142 - ERROR - Connection refused for proxy 172.247.244.36:7777
+2024-07-03 11:25:45,234 - ERROR - Connection refused for proxy 35.209.198.222:80
+2024-07-03 11:25:45,376 - ERROR - Connection refused for proxy 45.144.233.29:80
+2024-07-03 11:25:45,537 - ERROR - Connection refused for proxy 155.94.241.132:3128
+2024-07-03 11:25:45,589 - ERROR - Connection refused for proxy 45.55.98.82:80
+2024-07-03 11:25:46,238 - ERROR - Connection refused for proxy 165.227.0.192:80
+2024-07-03 11:25:46,405 - ERROR - Connection refused for proxy 192.73.244.36:80
+2024-07-03 11:25:46,431 - ERROR - Connection refused for proxy 72.169.67.61:87
+2024-07-03 11:25:46,438 - ERROR - Connection refused for proxy 38.101.116.6:80
+2024-07-03 11:25:46,569 - ERROR - Connection refused for proxy 47.237.4.233:80
+2024-07-03 11:25:46,731 - ERROR - Connection refused for proxy 47.236.133.119:80
+2024-07-03 11:25:46,795 - ERROR - Connection refused for proxy 114.156.77.107:8080
+2024-07-03 11:25:46,838 - ERROR - Connection refused for proxy 47.56.110.204:8989
+2024-07-03 11:25:46,886 - ERROR - Connection refused for proxy 109.195.23.223:34031
+2024-07-03 11:25:46,936 - ERROR - Connection refused for proxy 198.44.255.5:80
+2024-07-03 11:25:46,981 - ERROR - Connection refused for proxy 163.181.117.81:80
+2024-07-03 11:25:47,027 - ERROR - Connection refused for proxy 36.226.243.176:80
+2024-07-03 11:25:47,176 - ERROR - Connection refused for proxy 47.236.54.118:3128
+2024-07-03 11:25:47,326 - ERROR - Connection refused for proxy 172.183.241.1:8080
+2024-07-03 11:25:47,611 - ERROR - Connection refused for proxy 51.15.242.202:8888
+2024-07-03 11:25:48,135 - ERROR - Connection refused for proxy 122.160.30.99:80
+2024-07-03 11:25:48,397 - ERROR - Connection refused for proxy 65.108.9.181:80
+2024-07-03 11:25:48,444 - ERROR - Connection refused for proxy 5.255.109.246:80
+2024-07-03 11:25:48,726 - ERROR - Connection refused for proxy 1.162.19.186:80
+2024-07-03 11:25:48,903 - ERROR - Connection refused for proxy 154.118.228.212:80
+2024-07-03 11:25:49,007 - ERROR - Connection refused for proxy 40.122.106.245:80
+2024-07-03 11:25:49,157 - ERROR - Connection refused for proxy 138.68.60.8:8080
+2024-07-03 11:25:49,335 - ERROR - Connection refused for proxy 4.236.183.37:8080
+2024-07-03 11:25:49,787 - ERROR - Connection refused for proxy 154.65.39.7:80
+2024-07-03 11:25:49,861 - ERROR - Connection refused for proxy 167.102.133.111:80
+2024-07-03 11:25:50,090 - ERROR - Connection refused for proxy 154.203.132.55:8090
+2024-07-03 11:25:50,379 - ERROR - Connection refused for proxy 4.246.231.24:80
+2024-07-03 11:25:50,384 - ERROR - Connection refused for proxy 51.250.13.88:80
+2024-07-03 11:25:50,391 - ERROR - Connection refused for proxy 103.133.221.251:80
+2024-07-03 11:25:50,461 - ERROR - Connection refused for proxy 189.240.60.166:9090
+2024-07-03 11:25:50,564 - ERROR - Connection refused for proxy 202.61.204.51:80
+2024-07-03 11:25:50,730 - ERROR - Connection refused for proxy 47.236.243.34:80
+2024-07-03 11:25:50,949 - ERROR - Connection refused for proxy 47.251.70.179:80
+2024-07-03 11:25:51,438 - ERROR - Connection refused for proxy 54.38.181.125:80
+2024-07-03 11:25:51,567 - ERROR - Connection refused for proxy 43.132.124.11:3128
+2024-07-03 11:25:51,735 - ERROR - Connection refused for proxy 189.240.60.168:9090
+2024-07-03 11:25:51,754 - ERROR - Connection refused for proxy 189.240.60.163:9090
+2024-07-03 11:25:51,795 - ERROR - Connection refused for proxy 156.67.214.232:80
+2024-07-03 11:25:51,877 - ERROR - Connection refused for proxy 129.150.48.1:3128
+2024-07-03 11:25:51,890 - ERROR - Connection refused for proxy 34.64.94.216:80
+2024-07-03 11:25:51,899 - ERROR - Connection refused for proxy 173.255.119.18:80
+2024-07-03 11:25:51,992 - ERROR - Connection refused for proxy 111.247.40.246:80
+2024-07-03 11:25:52,064 - ERROR - Connection refused for proxy 47.74.5.183:80
+2024-07-03 11:25:52,178 - ERROR - Connection refused for proxy 167.102.133.106:80
+2024-07-03 11:25:52,192 - ERROR - Connection refused for proxy 194.67.91.153:80
+2024-07-03 11:25:52,321 - ERROR - Connection refused for proxy 49.228.131.169:5000
+2024-07-03 11:25:52,330 - ERROR - Connection refused for proxy 5.75.200.249:80
+2024-07-03 11:25:52,466 - ERROR - Connection refused for proxy 207.148.71.74:80
+2024-07-03 11:25:52,625 - ERROR - Connection refused for proxy 47.250.156.92:80
+2024-07-03 11:25:52,769 - ERROR - Connection refused for proxy 116.203.28.43:80
+2024-07-03 11:25:55,963 - ERROR - Connection refused for proxy 46.161.196.222:9812
+2024-07-03 11:25:56,768 - ERROR - Connection refused for proxy 108.170.12.11:80
+2024-07-03 11:25:56,799 - ERROR - Connection refused for proxy 138.91.159.185:80
+2024-07-03 11:25:56,892 - ERROR - Connection refused for proxy 50.174.7.158:80
+2024-07-03 11:25:57,079 - ERROR - Connection refused for proxy 50.218.57.68:80
+2024-07-03 11:25:57,080 - ERROR - Connection refused for proxy 0.0.0.0:80
+2024-07-03 11:25:57,204 - ERROR - Connection refused for proxy 50.174.7.155:80
+2024-07-03 11:25:57,206 - ERROR - Connection refused for proxy 194.182.178.90:3128
+2024-07-03 11:25:57,327 - ERROR - Connection refused for proxy 148.72.165.7:30135
+2024-07-03 11:25:57,343 - ERROR - Connection refused for proxy 50.168.72.115:80
+2024-07-03 11:25:57,635 - ERROR - Connection refused for proxy 50.218.204.103:80
+2024-07-03 11:25:57,775 - ERROR - Connection refused for proxy 66.191.31.158:80
+2024-07-03 11:25:58,022 - ERROR - Connection refused for proxy 47.74.152.29:8888
+2024-07-03 11:25:58,300 - ERROR - Connection refused for proxy 52.173.253.251:80
+2024-07-03 11:25:58,367 - ERROR - Connection refused for proxy 49.13.215.9:80
+2024-07-03 11:26:00,976 - ERROR - Connection refused for proxy 194.219.134.234:80
+2024-07-03 11:26:01,772 - ERROR - Connection refused for proxy 50.218.57.69:80
+2024-07-03 11:26:02,095 - ERROR - Connection refused for proxy 50.171.177.124:80
+2024-07-03 11:26:02,219 - ERROR - Connection refused for proxy 195.23.57.78:80
+2024-07-03 11:26:02,220 - ERROR - Connection refused for proxy 50.174.145.9:80
+2024-07-03 11:26:02,342 - ERROR - Connection refused for proxy 50.217.226.45:80
+2024-07-03 11:26:02,358 - ERROR - Connection refused for proxy 50.168.72.116:80
+2024-07-03 11:26:02,651 - ERROR - Connection refused for proxy 50.168.72.117:80
+2024-07-03 11:26:03,302 - ERROR - Connection refused for proxy 50.174.145.14:80
+2024-07-03 11:26:03,379 - ERROR - Connection refused for proxy 1.1.220.100:8080
+2024-07-03 11:26:03,499 - ERROR - Connection refused for proxy 20.210.113.32:8123
+2024-07-03 11:26:05,990 - ERROR - Connection refused for proxy 181.209.78.76:999
+2024-07-03 11:26:06,784 - ERROR - Connection refused for proxy 103.169.131.18:8080
+2024-07-03 11:26:07,109 - ERROR - Connection refused for proxy 187.73.225.96:777
+2024-07-03 11:26:07,197 - ERROR - Connection refused for proxy 20.206.106.192:8123
+2024-07-03 11:26:07,231 - ERROR - Connection refused for proxy 81.91.30.235:8080
+2024-07-03 11:26:07,231 - ERROR - Connection refused for proxy 110.77.171.251:8080
+2024-07-03 11:26:07,355 - ERROR - Connection refused for proxy 191.97.96.208:8080
+2024-07-03 11:26:07,370 - ERROR - Connection refused for proxy 103.148.192.82:9012
+2024-07-03 11:26:07,416 - ERROR - Connection refused for proxy 35.185.196.38:3128
+2024-07-03 11:26:07,506 - ERROR - Connection refused for proxy 160.86.242.23:8080
+2024-07-03 11:26:07,572 - ERROR - Connection refused for proxy 4.227.146.66:80
+2024-07-03 11:26:07,661 - ERROR - Connection refused for proxy 13.77.70.244:80
+2024-07-03 11:26:07,662 - ERROR - Connection refused for proxy 103.173.230.88:8080
+2024-07-03 11:26:07,890 - ERROR - Connection refused for proxy 103.127.1.130:80
+2024-07-03 11:26:07,904 - ERROR - Connection refused for proxy 133.18.234.13:80
+2024-07-03 11:26:07,968 - ERROR - Connection refused for proxy 20.12.196.82:80
+2024-07-03 11:26:08,108 - ERROR - Connection refused for proxy 213.218.228.253:80
+2024-07-03 11:26:08,309 - ERROR - Connection refused for proxy 135.125.225.75:8080
+2024-07-03 11:26:08,510 - ERROR - Connection refused for proxy 4.155.2.13:9480
+2024-07-03 11:26:08,645 - ERROR - Connection refused for proxy 139.99.237.62:80
+2024-07-03 11:26:08,770 - ERROR - Connection refused for proxy 13.81.217.201:80
+2024-07-03 11:26:08,805 - ERROR - Connection refused for proxy 198.49.68.80:80
+2024-07-03 11:26:09,098 - ERROR - Connection refused for proxy 103.126.95.243:80
+2024-07-03 11:26:09,379 - ERROR - Connection refused for proxy 18.116.43.248:80
+2024-07-03 11:26:09,396 - ERROR - Connection refused for proxy 12.186.205.121:80
+2024-07-03 11:26:09,415 - ERROR - Connection refused for proxy 43.240.9.2:80
+2024-07-03 11:26:09,694 - ERROR - Connection refused for proxy 13.201.209.121:80
+2024-07-03 11:26:10,996 - ERROR - Connection refused for proxy 190.58.248.86:80
+2024-07-03 11:26:12,206 - ERROR - Connection refused for proxy 50.169.37.50:80
+2024-07-03 11:26:12,236 - ERROR - Connection refused for proxy 50.223.239.191:80
+2024-07-03 11:26:12,578 - ERROR - Connection refused for proxy 50.223.239.161:80
+2024-07-03 11:26:12,902 - ERROR - Connection refused for proxy 50.223.239.165:80
+2024-07-03 11:26:12,947 - ERROR - Connection refused for proxy 59.144.184.73:80
+2024-07-03 11:26:13,135 - ERROR - Connection refused for proxy 198.74.51.79:8888
+2024-07-03 11:26:13,280 - ERROR - Connection refused for proxy 181.214.231.172:8080
+2024-07-03 11:26:13,662 - ERROR - Connection refused for proxy 50.223.242.100:80
+2024-07-03 11:26:13,785 - ERROR - Connection refused for proxy 50.223.239.160:80
+2024-07-03 11:26:14,402 - ERROR - Connection refused for proxy 50.223.242.97:80
+2024-07-03 11:26:14,418 - ERROR - Connection refused for proxy 82.136.72.102:80
+2024-07-03 11:26:14,660 - ERROR - Connection refused for proxy 123.30.154.171:7777
+2024-07-03 11:26:14,697 - ERROR - Connection refused for proxy 50.223.239.173:80
+2024-07-03 11:26:14,883 - ERROR - Connection refused for proxy 194.182.163.117:3128
+2024-07-03 11:26:14,889 - ERROR - Connection refused for proxy 20.235.159.154:80
+2024-07-03 11:26:14,927 - ERROR - Connection refused for proxy 162.240.76.92:80
+2024-07-03 11:26:16,000 - ERROR - Connection refused for proxy 50.223.239.190:80
+2024-07-03 11:26:16,253 - ERROR - Connection refused for proxy 157.175.59.123:80
+2024-07-03 11:26:16,512 - ERROR - Connection refused for proxy 45.150.227.184:80
+2024-07-03 11:26:17,208 - ERROR - Connection refused for proxy 50.223.239.166:80
+2024-07-03 11:26:17,240 - ERROR - Connection refused for proxy 50.172.39.98:80
+2024-07-03 11:26:17,515 - ERROR - Connection refused for proxy 64.227.4.244:8888
+2024-07-03 11:26:18,140 - ERROR - Connection refused for proxy 24.205.201.186:80
+2024-07-03 11:26:18,227 - ERROR - Connection refused for proxy 185.191.231.138:60517
+2024-07-03 11:26:18,295 - ERROR - Connection refused for proxy 85.8.68.2:80
+2024-07-03 11:26:18,350 - ERROR - Connection refused for proxy 72.10.160.90:1365
+2024-07-03 11:26:18,668 - ERROR - Connection refused for proxy 50.223.239.183:80
+2024-07-03 11:26:18,674 - ERROR - Connection refused for proxy 163.181.117.60:80
+2024-07-03 11:26:19,424 - ERROR - Connection refused for proxy 50.223.239.175:80
+2024-07-03 11:26:19,588 - ERROR - Connection refused for proxy 43.252.11.68:8484
+2024-07-03 11:26:19,621 - ERROR - Connection refused for proxy 102.130.125.86:80
+2024-07-03 11:26:19,663 - ERROR - Connection refused for proxy 13.66.206.110:80
+2024-07-03 11:26:19,947 - ERROR - Connection refused for proxy 107.172.209.246:8989
+2024-07-03 11:26:19,953 - ERROR - Connection refused for proxy 195.114.209.50:80
+2024-07-03 11:26:19,953 - ERROR - Connection refused for proxy 154.203.132.49:8080
+2024-07-03 11:26:20,080 - ERROR - Connection refused for proxy 123.205.24.244:8193
+2024-07-03 11:26:20,234 - ERROR - Connection refused for proxy 155.94.241.131:3128
+2024-07-03 11:26:20,262 - ERROR - Connection refused for proxy 46.47.197.210:3128
+2024-07-03 11:26:20,347 - ERROR - Connection refused for proxy 216.137.184.253:80
+2024-07-03 11:26:20,456 - ERROR - Connection refused for proxy 8.212.107.200:80
+2024-07-03 11:26:20,543 - ERROR - Connection refused for proxy 52.184.228.103:80
+2024-07-03 11:26:20,587 - ERROR - Connection refused for proxy 189.240.60.169:9090
+2024-07-03 11:26:20,790 - ERROR - Connection refused for proxy 139.59.1.14:8080
+2024-07-03 11:26:20,848 - ERROR - Connection refused for proxy 167.102.133.105:80
+2024-07-03 11:26:21,003 - ERROR - Connection refused for proxy 23.254.231.55:80
+2024-07-03 11:26:21,124 - ERROR - Connection refused for proxy 51.89.255.67:80
+2024-07-03 11:26:21,526 - ERROR - Connection refused for proxy 188.132.209.245:80
+2024-07-03 11:26:21,681 - ERROR - Connection refused for proxy 148.72.140.24:30127
+2024-07-03 11:26:21,877 - ERROR - Connection refused for proxy 185.217.136.67:1337
+2024-07-03 11:26:23,029 - ERROR - Connection refused for proxy 179.189.222.188:8080
+2024-07-03 11:26:23,687 - ERROR - Connection refused for proxy 139.162.78.109:8080
+2024-07-03 11:26:25,096 - ERROR - Connection refused for proxy 103.148.39.26:82
+2024-07-03 11:26:25,250 - ERROR - Connection refused for proxy 34.92.88.81:33333
+2024-07-03 11:26:25,603 - ERROR - Connection refused for proxy 8.212.116.106:80
+2024-07-03 11:26:25,852 - ERROR - Connection refused for proxy 45.6.224.76:999
+2024-07-03 11:26:26,006 - ERROR - Connection refused for proxy 201.144.25.10:8080
+2024-07-03 11:26:26,131 - ERROR - Connection refused for proxy 197.246.10.151:8080
+2024-07-03 11:26:26,533 - ERROR - Connection refused for proxy 194.44.177.225:8080
+2024-07-03 11:26:26,889 - ERROR - Connection refused for proxy 202.152.24.50:8080
+2024-07-03 11:26:28,035 - ERROR - Connection refused for proxy 103.105.76.99:8080
+2024-07-03 11:26:28,702 - ERROR - Connection refused for proxy 188.244.38.227:7999
+2024-07-03 11:26:30,110 - ERROR - Connection refused for proxy 103.125.16.50:8080
+2024-07-03 11:26:30,266 - ERROR - Connection refused for proxy 154.64.215.132:999
+2024-07-03 11:26:30,623 - ERROR - Connection refused for proxy 103.83.178.43:8181
+2024-07-03 11:26:30,855 - ERROR - Connection refused for proxy 193.105.123.194:8123
+2024-07-03 11:26:31,026 - ERROR - Connection refused for proxy 113.160.247.27:19132
+2024-07-03 11:26:31,135 - ERROR - Connection refused for proxy 103.59.44.42:8080
+2024-07-03 11:26:31,537 - ERROR - Connection refused for proxy 190.26.255.30:999
+2024-07-03 11:26:31,894 - ERROR - Connection refused for proxy 50.175.212.72:80
+2024-07-03 11:26:33,039 - ERROR - Connection refused for proxy 50.175.212.79:80
+2024-07-03 11:26:33,704 - ERROR - Connection refused for proxy 50.171.122.30:80
+2024-07-03 11:26:35,127 - ERROR - Connection refused for proxy 50.237.207.186:80
+2024-07-03 11:26:35,281 - ERROR - Connection refused for proxy 50.168.72.114:80
+2024-07-03 11:26:35,636 - ERROR - Connection refused for proxy 50.223.239.168:80
+2024-07-03 11:26:35,869 - ERROR - Connection refused for proxy 50.218.204.96:80
+2024-07-03 11:26:36,039 - ERROR - Connection refused for proxy 50.174.7.157:80
+2024-07-03 11:26:36,146 - ERROR - Connection refused for proxy 50.217.226.44:80
+2024-07-03 11:26:36,549 - ERROR - Connection refused for proxy 50.144.168.74:80
+2024-07-03 11:26:36,904 - ERROR - Connection refused for proxy 50.231.110.26:80
+2024-07-03 11:26:38,047 - ERROR - Connection refused for proxy 50.174.145.13:80
+2024-07-03 11:26:38,713 - ERROR - Connection refused for proxy 50.207.199.80:80
+2024-07-03 11:26:40,134 - ERROR - Connection refused for proxy 50.218.57.70:80
+2024-07-03 11:26:40,288 - ERROR - Connection refused for proxy 50.174.7.156:80
+2024-07-03 11:26:40,484 - ERROR - Connection refused for proxy 209.97.150.167:3128
+2024-07-03 11:26:40,646 - ERROR - Connection refused for proxy 50.218.204.106:80
+2024-07-03 11:26:40,880 - ERROR - Connection refused for proxy 50.168.7.250:80
+2024-07-03 11:26:41,049 - ERROR - Connection refused for proxy 50.144.189.54:80
+2024-07-03 11:26:41,157 - ERROR - Connection refused for proxy 32.223.6.94:80
+2024-07-03 11:26:41,561 - ERROR - Connection refused for proxy 50.223.246.226:80
+2024-07-03 11:26:41,914 - ERROR - Connection refused for proxy 50.217.226.47:80
+2024-07-03 11:26:43,060 - ERROR - Connection refused for proxy 50.231.172.74:80
+2024-07-03 11:26:43,715 - ERROR - Connection refused for proxy 50.173.182.90:80
+2024-07-03 11:26:45,294 - ERROR - Connection refused for proxy 50.218.204.99:80
+2024-07-03 11:26:45,496 - ERROR - Connection refused for proxy 139.60.209.2:80
+2024-07-03 11:26:45,651 - ERROR - Connection refused for proxy 50.175.212.76:80
+2024-07-03 11:26:45,883 - ERROR - Connection refused for proxy 50.218.57.74:80
+2024-07-03 11:26:46,052 - ERROR - Connection refused for proxy 50.174.7.162:80
+2024-07-03 11:26:46,160 - ERROR - Connection refused for proxy 50.202.75.26:80
+2024-07-03 11:26:46,564 - ERROR - Connection refused for proxy 50.223.239.194:80
+2024-07-03 11:26:46,920 - ERROR - Connection refused for proxy 50.223.242.103:80
+2024-07-03 11:26:47,248 - ERROR - Connection refused for proxy 5.196.65.71:3128
+2024-07-03 11:26:48,065 - ERROR - Connection refused for proxy 50.223.239.177:80
+2024-07-03 11:26:48,731 - ERROR - Connection refused for proxy 50.222.245.43:80
+2024-07-03 11:26:50,306 - ERROR - Connection refused for proxy 50.146.203.174:80
+2024-07-03 11:26:50,507 - ERROR - Connection refused for proxy 50.217.226.41:80
+2024-07-03 11:26:50,661 - ERROR - Connection refused for proxy 50.172.75.121:80
+2024-07-03 11:26:50,892 - ERROR - Connection refused for proxy 50.171.177.126:80
+2024-07-03 11:26:51,037 - ERROR - Connection refused for proxy 51.254.78.223:80
+2024-07-03 11:26:51,062 - ERROR - Connection refused for proxy 50.174.145.12:80
+2024-07-03 11:26:51,171 - ERROR - Connection refused for proxy 50.168.72.118:80
+2024-07-03 11:26:51,336 - ERROR - Connection refused for proxy 198.199.86.11:8080
+2024-07-03 11:26:51,571 - ERROR - Connection refused for proxy 50.218.57.65:80
+2024-07-03 11:26:52,251 - ERROR - Connection refused for proxy 50.223.239.167:80
+2024-07-03 11:26:53,069 - ERROR - Connection refused for proxy 50.221.74.130:80
+2024-07-03 11:26:53,734 - ERROR - Connection refused for proxy 50.174.7.154:80
+2024-07-03 11:26:55,309 - ERROR - Connection refused for proxy 50.217.226.43:80
+2024-07-03 11:26:55,511 - ERROR - Connection refused for proxy 50.207.199.87:80
+2024-07-03 11:26:55,898 - ERROR - Connection refused for proxy 50.217.226.40:80
+2024-07-03 11:26:56,069 - ERROR - Connection refused for proxy 50.122.86.118:80
+2024-07-03 11:26:56,178 - ERROR - Connection refused for proxy 50.172.75.124:80
+2024-07-03 11:26:56,241 - ERROR - Connection refused for proxy 34.73.158.50:80
+2024-07-03 11:26:56,348 - ERROR - Connection refused for proxy 50.221.230.186:80
+2024-07-03 11:26:56,579 - ERROR - Connection refused for proxy 50.175.212.77:80
+2024-07-03 11:26:56,888 - ERROR - Connection refused for proxy 159.69.41.154:3128
+2024-07-03 11:26:57,255 - ERROR - Connection refused for proxy 50.239.72.17:80
+2024-07-03 11:26:57,399 - ERROR - Connection refused for proxy 182.253.109.11:8080
+2024-07-03 11:26:58,076 - ERROR - Connection refused for proxy 50.207.199.82:80
+2024-07-03 11:26:58,745 - ERROR - Connection refused for proxy 50.239.72.19:80
+2024-07-03 11:26:59,482 - ERROR - Connection refused for proxy 141.148.26.234:8081
+2024-07-03 11:27:00,313 - ERROR - Connection refused for proxy 50.169.135.10:80
+2024-07-03 11:27:00,527 - ERROR - Connection refused for proxy 50.223.239.185:80
+2024-07-03 11:27:00,650 - ERROR - Connection refused for proxy 203.205.9.105:8080
+2024-07-03 11:27:01,085 - ERROR - Connection refused for proxy 50.230.222.202:80
+2024-07-03 11:27:01,254 - ERROR - Connection refused for proxy 103.146.170.193:83
+2024-07-03 11:27:01,363 - ERROR - Connection refused for proxy 187.73.102.70:9292
+2024-07-03 11:27:01,543 - ERROR - Connection refused for proxy 223.135.156.183:8080
+2024-07-03 11:27:01,614 - ERROR - Connection refused for proxy 92.154.84.215:80
+2024-07-03 11:27:01,786 - ERROR - Connection refused for proxy 47.251.43.115:33333
+2024-07-03 11:27:02,259 - ERROR - Connection refused for proxy 177.75.96.46:3128
+2024-07-03 11:27:02,413 - ERROR - Connection refused for proxy 103.81.254.249:8080
+2024-07-03 11:27:02,575 - ERROR - Connection refused for proxy 188.40.59.208:3128
+2024-07-03 11:27:03,080 - ERROR - Connection refused for proxy 194.180.189.124:3128
+2024-07-03 11:27:03,760 - ERROR - Connection refused for proxy 103.231.239.126:58080
+2024-07-03 11:27:04,487 - ERROR - Connection refused for proxy 103.10.71.81:80
+2024-07-03 11:27:04,540 - ERROR - Connection refused for proxy 103.133.26.72:8080
+2024-07-03 11:27:05,094 - ERROR - Connection refused for proxy 72.10.160.91:8167
+2024-07-03 11:27:06,549 - ERROR - Connection refused for proxy 103.174.102.127:80
+2024-07-03 11:27:06,796 - ERROR - Connection refused for proxy 50.207.199.86:80
+2024-07-03 11:27:07,275 - ERROR - Connection refused for proxy 50.174.145.8:80
+2024-07-03 11:27:07,430 - ERROR - Connection refused for proxy 50.174.7.153:80
+2024-07-03 11:27:07,583 - ERROR - Connection refused for proxy 50.218.57.67:80
+2024-07-03 11:27:08,096 - ERROR - Connection refused for proxy 50.172.75.120:80
+2024-07-03 11:27:08,763 - ERROR - Connection refused for proxy 96.113.158.126:80
+2024-07-03 11:27:09,115 - ERROR - Connection refused for proxy 216.246.40.215:8999
+2024-07-03 11:27:09,489 - ERROR - Connection refused for proxy 50.144.166.226:80
+2024-07-03 11:27:09,551 - ERROR - Connection refused for proxy 50.171.187.51:80
+2024-07-03 11:27:10,106 - ERROR - Connection refused for proxy 50.207.199.81:80
+2024-07-03 11:27:11,561 - ERROR - Connection refused for proxy 50.222.245.41:80
+2024-07-03 11:27:11,808 - ERROR - Connection refused for proxy 50.172.75.122:80
+2024-07-03 11:27:12,287 - ERROR - Connection refused for proxy 50.174.7.159:80
+2024-07-03 11:27:12,441 - ERROR - Connection refused for proxy 50.172.75.125:80
+2024-07-03 11:27:12,597 - ERROR - Connection refused for proxy 50.220.168.134:80
+2024-07-03 11:27:13,106 - ERROR - Connection refused for proxy 50.222.245.46:80
+2024-07-03 11:27:14,127 - ERROR - Connection refused for proxy 50.231.104.58:80
+2024-07-03 11:27:14,499 - ERROR - Connection refused for proxy 50.217.226.42:80
+2024-07-03 11:27:14,499 - ERROR - Connection refused for proxy 2024-07-03:382
+2024-07-03 11:27:14,559 - ERROR - Connection refused for proxy 50.223.38.6:80
+2024-07-03 11:27:14,974 - ERROR - Connection refused for proxy 2024-07-02:395
+2024-07-03 11:27:15,112 - ERROR - Connection refused for proxy 50.172.75.123:80
+2024-07-03 11:27:15,128 - ERROR - Connection refused for proxy 2024-07-01:329
+2024-07-03 11:27:15,282 - ERROR - Connection refused for proxy 2024-06-30:384
+2024-07-03 11:27:15,370 - ERROR - Connection refused for proxy 12.186.205.121:80
+2024-07-03 11:27:15,534 - ERROR - Connection refused for proxy 138.68.60.8:8080
+2024-07-03 11:27:15,570 - ERROR - Connection refused for proxy 47.88.31.196:8080
+2024-07-03 11:27:15,777 - ERROR - Connection refused for proxy 192.73.244.36:80
+2024-07-03 11:27:15,791 - ERROR - Connection refused for proxy 2024-06-29:382
+2024-07-03 11:27:15,845 - ERROR - Connection refused for proxy 198.49.68.80:80
+2024-07-03 11:27:16,061 - ERROR - Connection refused for proxy 4.227.146.66:80
+2024-07-03 11:27:16,563 - ERROR - Connection refused for proxy 50.222.245.45:80
+2024-07-03 11:27:16,814 - ERROR - Connection refused for proxy 373:86
+2024-07-03 11:27:17,202 - ERROR - Connection refused for proxy 172:39
+2024-07-03 11:27:17,202 - ERROR - Connection refused for proxy 57:13
+2024-07-03 11:27:17,782 - ERROR - Connection refused for proxy 165.227.0.192:80
+2024-07-03 11:27:18,006 - ERROR - Connection refused for proxy 69.165.74.83:3128
+2024-07-03 11:27:20,128 - ERROR - Connection refused for proxy 108.170.12.12:80
+2024-07-03 11:27:20,806 - ERROR - Connection refused for proxy 50.223.239.183:80
+2024-07-03 11:27:20,852 - ERROR - Connection refused for proxy 50.168.72.116:80
+2024-07-03 11:27:21,069 - ERROR - Connection refused for proxy 50.144.166.226:80
+2024-07-03 11:27:21,566 - ERROR - Connection refused for proxy 50.168.72.112:80
+2024-07-03 11:27:21,829 - ERROR - Connection refused for proxy 50.222.245.43:80
+2024-07-03 11:27:22,215 - ERROR - Connection refused for proxy 50.222.245.41:80
+2024-07-03 11:27:22,215 - ERROR - Connection refused for proxy 50.168.72.122:80
+2024-07-03 11:27:22,789 - ERROR - Connection refused for proxy 50.171.177.124:80
+2024-07-03 11:27:23,020 - ERROR - Connection refused for proxy 50.175.212.66:80
+2024-07-03 11:27:25,131 - ERROR - Connection refused for proxy 50.223.242.100:80
+2024-07-03 11:27:25,810 - ERROR - Connection refused for proxy 50.218.57.64:80
+2024-07-03 11:27:25,856 - ERROR - Connection refused for proxy 50.171.177.126:80
+2024-07-03 11:27:26,067 - ERROR - Connection refused for proxy 45.150.227.184:80
+2024-07-03 11:27:26,074 - ERROR - Connection refused for proxy 50.218.57.66:80
+2024-07-03 11:27:26,583 - ERROR - Connection refused for proxy 50.220.168.134:80
+2024-07-03 11:27:26,831 - ERROR - Connection refused for proxy 50.122.86.118:80
+2024-07-03 11:27:27,036 - ERROR - Connection refused for proxy 47.251.70.179:80
+2024-07-03 11:27:27,229 - ERROR - Connection refused for proxy 50.218.204.99:80
+2024-07-03 11:27:27,229 - ERROR - Connection refused for proxy 50.174.145.9:80
+2024-07-03 11:27:27,321 - ERROR - Connection refused for proxy 66.59.197.110:80
+2024-07-03 11:27:27,573 - ERROR - Connection refused for proxy 35.185.196.38:3128
+2024-07-03 11:27:27,626 - ERROR - Connection refused for proxy 216.137.184.253:80
+2024-07-03 11:27:27,795 - ERROR - Connection refused for proxy 167.102.133.111:80
+2024-07-03 11:27:27,846 - ERROR - Connection refused for proxy 159.65.77.168:8585
+2024-07-03 11:27:27,913 - ERROR - Connection refused for proxy 172.183.241.1:8080
+2024-07-03 11:27:28,025 - ERROR - Connection refused for proxy 50.172.75.123:80
+2024-07-03 11:27:28,166 - ERROR - Connection refused for proxy 40.113.199.101:80
+2024-07-03 11:27:28,213 - ERROR - Connection refused for proxy 52.184.228.103:80
+2024-07-03 11:27:30,147 - ERROR - Connection refused for proxy 50.174.7.162:80
+2024-07-03 11:27:30,870 - ERROR - Connection refused for proxy 50.174.7.156:80
+2024-07-03 11:27:31,071 - ERROR - Connection refused for proxy 50.168.72.117:80
+2024-07-03 11:27:31,086 - ERROR - Connection refused for proxy 50.217.226.45:80
+2024-07-03 11:27:31,338 - ERROR - Connection refused for proxy 40.122.106.245:80
+2024-07-03 11:27:31,592 - ERROR - Connection refused for proxy 50.174.7.157:80
+2024-07-03 11:27:32,242 - ERROR - Connection refused for proxy 50.207.199.84:80
+2024-07-03 11:27:32,797 - ERROR - Connection refused for proxy 50.207.199.82:80
+2024-07-03 11:27:33,028 - ERROR - Connection refused for proxy 50.168.72.115:80
+2024-07-03 11:27:33,182 - ERROR - Connection refused for proxy 50.168.7.250:80
+2024-07-03 11:27:33,228 - ERROR - Connection refused for proxy 50.218.204.103:80
+2024-07-03 11:27:35,157 - ERROR - Connection refused for proxy 50.145.24.176:80
+2024-07-03 11:27:35,900 - ERROR - Connection refused for proxy 50.145.24.181:80
+2024-07-03 11:27:36,099 - ERROR - Connection refused for proxy 50.223.239.175:80
+2024-07-03 11:27:36,161 - ERROR - Connection refused for proxy 18.116.43.248:80
+2024-07-03 11:27:36,345 - ERROR - Connection refused for proxy 50.223.239.166:80
+2024-07-03 11:27:36,608 - ERROR - Connection refused for proxy 50.223.239.161:80
+2024-07-03 11:27:36,707 - ERROR - Connection refused for proxy 216.246.40.215:8999
+2024-07-03 11:27:37,034 - ERROR - Connection refused for proxy 162.245.85.220:80
+2024-07-03 11:27:37,257 - ERROR - Connection refused for proxy 50.223.239.160:80
+2024-07-03 11:27:37,296 - ERROR - Connection refused for proxy 13.77.70.244:80
+2024-07-03 11:27:37,529 - ERROR - Connection refused for proxy 167.102.133.105:80
+2024-07-03 11:27:37,599 - ERROR - Connection refused for proxy 4.246.231.24:80
+2024-07-03 11:27:37,809 - ERROR - Connection refused for proxy 50.223.239.190:80
+2024-07-03 11:27:37,841 - ERROR - Connection refused for proxy 34.66.223.220:80
+2024-07-03 11:27:38,039 - ERROR - Connection refused for proxy 50.223.239.191:80
+2024-07-03 11:27:38,167 - ERROR - Connection refused for proxy 34.73.158.50:80
+2024-07-03 11:27:38,191 - ERROR - Connection refused for proxy 24.205.201.186:80
+2024-07-03 11:27:38,238 - ERROR - Connection refused for proxy 50.223.242.97:80
+2024-07-03 11:27:38,571 - ERROR - Connection refused for proxy 20.12.196.82:80
+2024-07-03 11:27:38,808 - ERROR - Connection refused for proxy 198.74.51.79:8888
+2024-07-03 11:27:40,165 - ERROR - Connection refused for proxy 103.152.112.145:80
+2024-07-03 11:27:40,396 - ERROR - Connection refused for proxy 155.94.241.132:3128
+2024-07-03 11:27:41,109 - ERROR - Connection refused for proxy 50.169.37.50:80
+2024-07-03 11:27:41,403 - ERROR - Connection refused for proxy 155.94.241.131:3128
+2024-07-03 11:27:41,524 - ERROR - Connection refused for proxy 73.117.183.115:80
+2024-07-03 11:27:41,617 - ERROR - Connection refused for proxy 50.172.39.98:80
+2024-07-03 11:27:42,606 - ERROR - Connection refused for proxy 50.223.239.165:80
+2024-07-03 11:27:42,823 - ERROR - Connection refused for proxy 50.223.239.173:80
+2024-07-03 11:27:43,055 - ERROR - Connection refused for proxy 50.175.212.77:80
+2024-07-03 11:27:43,144 - ERROR - Connection refused for proxy 104.207.36.188:3128
+2024-07-03 11:27:43,207 - ERROR - Connection refused for proxy 50.171.122.30:80
+2024-07-03 11:27:43,254 - ERROR - Connection refused for proxy 50.223.242.103:80
+2024-07-03 11:27:43,322 - ERROR - Connection refused for proxy 104.238.50.56:6602
+2024-07-03 11:27:43,384 - ERROR - Connection refused for proxy 157.52.174.170:6379
+2024-07-03 11:27:43,636 - ERROR - Connection refused for proxy 198.46.137.163:6367
+2024-07-03 11:27:43,824 - ERROR - Connection refused for proxy 50.174.145.13:80
+2024-07-03 11:27:45,400 - ERROR - Connection refused for proxy 167.102.133.106:80
+2024-07-03 11:27:46,420 - ERROR - Connection refused for proxy 156.239.55.163:3128
+2024-07-03 11:27:46,527 - ERROR - Connection refused for proxy 154.202.125.73:3128
+2024-07-03 11:27:46,619 - ERROR - Connection refused for proxy 154.202.113.58:3128
+2024-07-03 11:27:46,700 - ERROR - Connection refused for proxy 198.37.121.208:6628
+2024-07-03 11:27:46,854 - ERROR - Connection refused for proxy 107.179.114.199:5972
+2024-07-03 11:27:46,866 - ERROR - Connection refused for proxy 157.52.252.84:6648
+2024-07-03 11:27:47,120 - ERROR - Connection refused for proxy 104.223.149.69:5697
+2024-07-03 11:27:47,624 - ERROR - Connection refused for proxy 154.201.47.112:3128
+2024-07-03 11:27:48,223 - ERROR - Connection refused for proxy 154.201.36.102:3128
+2024-07-03 11:27:48,268 - ERROR - Connection refused for proxy 156.239.55.182:3128
+2024-07-03 11:27:48,329 - ERROR - Connection refused for proxy 154.202.124.14:3128
+2024-07-03 11:27:48,516 - ERROR - Connection refused for proxy 104.207.45.148:3128
+2024-07-03 11:27:48,652 - ERROR - Connection refused for proxy 146.19.44.222:8085
+2024-07-03 11:27:48,837 - ERROR - Connection refused for proxy 156.239.51.22:3128
+2024-07-03 11:27:48,921 - ERROR - Connection refused for proxy 142.147.242.248:6227
+2024-07-03 11:27:49,065 - ERROR - Connection refused for proxy 192.210.191.214:6200
+2024-07-03 11:27:49,208 - ERROR - Connection refused for proxy 161.123.151.97:6081
+2024-07-03 11:27:49,383 - ERROR - Connection refused for proxy 104.207.53.162:3128
+2024-07-03 11:27:49,651 - ERROR - Connection refused for proxy 107.179.48.208:5861
+2024-07-03 11:27:49,965 - ERROR - Connection refused for proxy 107.179.114.146:5919
+2024-07-03 11:27:50,274 - ERROR - Connection refused for proxy 161.123.154.24:6554
+2024-07-03 11:27:50,407 - ERROR - Connection refused for proxy 104.252.131.229:3128
+2024-07-03 11:27:50,637 - ERROR - Connection refused for proxy 184.174.24.55:6631
+2024-07-03 11:27:51,718 - ERROR - Connection refused for proxy 94.154.113.52:8085
+2024-07-03 11:27:51,871 - ERROR - Connection refused for proxy 104.252.131.86:3128
+2024-07-03 11:27:52,135 - ERROR - Connection refused for proxy 83.97.119.68:8085
+2024-07-03 11:27:52,629 - ERROR - Connection refused for proxy 156.239.53.153:3128
+2024-07-03 11:27:53,050 - ERROR - Connection refused for proxy 104.207.61.15:3128
+2024-07-03 11:27:53,274 - ERROR - Connection refused for proxy 154.202.114.155:3128
+2024-07-03 11:27:53,337 - ERROR - Connection refused for proxy 156.239.49.84:3128
+2024-07-03 11:27:53,523 - ERROR - Connection refused for proxy 154.201.47.10:3128
+2024-07-03 11:27:53,539 - ERROR - Connection refused for proxy 184.174.30.224:5893
+2024-07-03 11:27:54,218 - ERROR - Connection refused for proxy 154.202.119.200:3128
+2024-07-03 11:27:54,579 - ERROR - Connection refused for proxy 198.46.137.24:6228
+2024-07-03 11:27:55,287 - ERROR - Connection refused for proxy 154.202.107.235:3128
+2024-07-03 11:27:55,518 - ERROR - Connection refused for proxy 104.148.0.64:5419
+2024-07-03 11:27:55,641 - ERROR - Connection refused for proxy 154.202.99.228:3128
+2024-07-03 11:27:55,841 - ERROR - Connection refused for proxy 104.207.35.204:3128
+2024-07-03 11:27:56,144 - ERROR - Connection refused for proxy 104.207.45.224:3128
+2024-07-03 11:27:56,373 - ERROR - Connection refused for proxy 170.106.117.131:10107
+2024-07-03 11:27:56,735 - ERROR - Connection refused for proxy 154.201.47.135:3128
+2024-07-03 11:27:56,875 - ERROR - Connection refused for proxy 104.164.183.134:3128
+2024-07-03 11:27:57,026 - ERROR - Connection refused for proxy 154.29.239.206:6245
+2024-07-03 11:27:57,152 - ERROR - Connection refused for proxy 161.123.5.112:5161
+2024-07-03 11:27:57,178 - ERROR - Connection refused for proxy 173.239.237.166:5812
+2024-07-03 11:27:57,318 - ERROR - Connection refused for proxy 64.64.115.163:5798
+2024-07-03 11:27:57,604 - ERROR - Connection refused for proxy 104.207.57.199:3128
+2024-07-03 11:27:57,894 - ERROR - Connection refused for proxy 104.207.54.153:3128
+2024-07-03 11:27:58,061 - ERROR - Connection refused for proxy 154.201.47.44:3128
+2024-07-03 11:27:58,342 - ERROR - Connection refused for proxy 104.207.34.223:3128
+2024-07-03 11:27:58,538 - ERROR - Connection refused for proxy 156.239.50.55:3128
+2024-07-03 11:27:58,554 - ERROR - Connection refused for proxy 156.239.50.139:3128
+2024-07-03 11:27:58,611 - ERROR - Connection refused for proxy 104.207.33.36:3128
+2024-07-03 11:27:58,821 - ERROR - Connection refused for proxy 45.141.83.148:6512
+2024-07-03 11:27:59,105 - ERROR - Connection refused for proxy 104.223.227.197:6720
+2024-07-03 11:27:59,220 - ERROR - Connection refused for proxy 154.201.47.72:3128
+2024-07-03 11:27:59,406 - ERROR - Connection refused for proxy 173.244.41.107:6291
+2024-07-03 11:27:59,593 - ERROR - Connection refused for proxy 154.202.118.222:3128
+2024-07-03 11:28:00,649 - ERROR - Connection refused for proxy 194.70.234.168:8085
+2024-07-03 11:28:01,378 - ERROR - Connection refused for proxy 156.239.55.91:3128
+2024-07-03 11:28:02,165 - ERROR - Connection refused for proxy 154.202.123.221:3128
+2024-07-03 11:28:02,181 - ERROR - Connection refused for proxy 104.165.169.78:3128
+2024-07-03 11:28:02,909 - ERROR - Connection refused for proxy 154.202.99.100:3128
+2024-07-03 11:28:03,557 - ERROR - Connection refused for proxy 156.239.49.129:3128
+2024-07-03 11:28:03,619 - ERROR - Connection refused for proxy 104.165.127.130:3128
+2024-07-03 11:28:04,238 - ERROR - Connection refused for proxy 104.165.127.165:3128
+2024-07-03 11:28:04,422 - ERROR - Connection refused for proxy 212.18.127.226:8085
+2024-07-03 11:28:04,493 - ERROR - Connection refused for proxy 173.214.176.190:6161
+2024-07-03 11:28:04,607 - ERROR - Connection refused for proxy 156.239.53.228:3128
+2024-07-03 11:28:04,805 - ERROR - Connection refused for proxy 104.207.32.229:3128
+2024-07-03 11:28:04,902 - ERROR - Connection refused for proxy 104.207.60.180:3128
+2024-07-03 11:28:05,184 - ERROR - Connection refused for proxy 38.154.194.199:9612
+2024-07-03 11:28:05,655 - ERROR - Connection refused for proxy 104.164.183.89:3128
+2024-07-03 11:28:05,880 - ERROR - Connection refused for proxy 136.0.109.4:6290
+2024-07-03 11:28:06,205 - ERROR - Connection refused for proxy 104.207.48.238:3128
+2024-07-03 11:28:06,394 - ERROR - Connection refused for proxy 156.239.53.70:3128
+2024-07-03 11:28:06,431 - ERROR - Connection refused for proxy 104.223.149.181:5809
+2024-07-03 11:28:06,689 - ERROR - Connection refused for proxy 38.170.161.79:9130
+2024-07-03 11:28:07,169 - ERROR - Connection refused for proxy 156.239.50.15:3128
+2024-07-03 11:28:07,184 - ERROR - Connection refused for proxy 154.202.126.122:3128
+2024-07-03 11:28:07,515 - ERROR - Connection refused for proxy 142.147.242.62:6041
+2024-07-03 11:28:07,925 - ERROR - Connection refused for proxy 154.202.123.197:3128
+2024-07-03 11:28:08,561 - ERROR - Connection refused for proxy 154.202.125.237:3128
+2024-07-03 11:28:08,622 - ERROR - Connection refused for proxy 154.202.116.235:3128
+2024-07-03 11:28:08,894 - ERROR - Connection refused for proxy 107.179.48.238:5891
+2024-07-03 11:28:09,428 - ERROR - Connection refused for proxy 156.239.53.98:3128
+2024-07-03 11:28:09,814 - ERROR - Connection refused for proxy 104.164.183.147:3128
+2024-07-03 11:28:09,816 - ERROR - Connection refused for proxy 142.147.244.102:6346
+2024-07-03 11:28:10,076 - ERROR - Connection refused for proxy 104.223.149.184:5812
+2024-07-03 11:28:10,200 - ERROR - Connection refused for proxy 154.202.123.151:3128
+2024-07-03 11:28:10,387 - ERROR - Connection refused for proxy 23.247.37.55:6357
+2024-07-03 11:28:10,735 - ERROR - Connection refused for proxy 104.207.39.223:3128
+2024-07-03 11:28:11,016 - ERROR - Connection refused for proxy 107.150.21.243:5859
+2024-07-03 11:28:11,407 - ERROR - Connection refused for proxy 156.239.49.98:3128
+2024-07-03 11:28:11,699 - ERROR - Connection refused for proxy 154.202.99.134:3128
+2024-07-03 11:28:12,195 - ERROR - Connection refused for proxy 154.202.127.239:3128
+2024-07-03 11:28:12,519 - ERROR - Connection refused for proxy 154.202.127.111:3128
+2024-07-03 11:28:12,569 - ERROR - Connection refused for proxy 23.247.101.180:6919
+2024-07-03 11:28:12,939 - ERROR - Connection refused for proxy 156.239.55.79:3128
+2024-07-03 11:28:13,247 - ERROR - Connection refused for proxy 184.174.44.186:6612
+2024-07-03 11:28:13,572 - ERROR - Connection refused for proxy 107.179.114.15:5788
+2024-07-03 11:28:13,634 - ERROR - Connection refused for proxy 154.201.36.135:3128
+2024-07-03 11:28:13,897 - ERROR - Connection refused for proxy 154.201.36.92:3128
+2024-07-03 11:28:13,907 - ERROR - Connection refused for proxy 104.207.36.144:3128
+2024-07-03 11:28:14,164 - ERROR - Connection refused for proxy 198.46.246.129:6753
+2024-07-03 11:28:14,822 - ERROR - Connection refused for proxy 156.239.50.51:3128
+2024-07-03 11:28:15,210 - ERROR - Connection refused for proxy 156.239.53.97:3128
+2024-07-03 11:28:16,029 - ERROR - Connection refused for proxy 104.165.127.113:3128
+2024-07-03 11:28:16,417 - ERROR - Connection refused for proxy 156.239.55.124:3128
+2024-07-03 11:28:16,710 - ERROR - Connection refused for proxy 154.201.47.121:3128
+2024-07-03 11:28:17,516 - ERROR - Connection refused for proxy 2024-07-03:387
+2024-07-03 11:28:17,531 - ERROR - Connection refused for proxy 156.239.55.114:3128
+2024-07-03 11:28:17,577 - ERROR - Connection refused for proxy 104.252.131.137:3128
+2024-07-03 11:28:17,902 - ERROR - Connection refused for proxy 2024-07-02:395
+2024-07-03 11:28:18,645 - ERROR - Connection refused for proxy 156.239.52.240:3128
+2024-07-03 11:28:18,722 - ERROR - Connection refused for proxy 2024-07-01:329
+2024-07-03 11:28:18,923 - ERROR - Connection refused for proxy 91.246.51.13:8085
+2024-07-03 11:28:19,109 - ERROR - Connection refused for proxy 2024-06-30:384
+2024-07-03 11:28:19,170 - ERROR - Connection refused for proxy 154.202.107.106:3128
+2024-07-03 11:28:19,225 - ERROR - Connection refused for proxy 154.16.146.41:80
+2024-07-03 11:28:19,402 - ERROR - Connection refused for proxy 2024-06-29:382
+2024-07-03 11:28:19,405 - ERROR - Connection refused for proxy 160.86.242.23:8080
+2024-07-03 11:28:19,417 - ERROR - Connection refused for proxy 198.74.51.79:8888
+2024-07-03 11:28:19,767 - ERROR - Connection refused for proxy 13.36.87.105:3128
+2024-07-03 11:28:19,779 - ERROR - Connection refused for proxy 8.211.200.183:3128
+2024-07-03 11:28:19,846 - ERROR - Connection refused for proxy 49.228.131.169:5000
+2024-07-03 11:28:20,090 - ERROR - Connection refused for proxy 13.36.113.81:3128
+2024-07-03 11:28:20,167 - ERROR - Connection refused for proxy 65.109.211.169:80
+2024-07-03 11:28:20,205 - ERROR - Connection refused for proxy 374:86
+2024-07-03 11:28:20,221 - ERROR - Connection refused for proxy 172:39
+2024-07-03 11:28:20,266 - ERROR - Connection refused for proxy 57:13
+2024-07-03 11:28:20,290 - ERROR - Connection refused for proxy 89.35.237.187:80
+2024-07-03 11:28:20,489 - ERROR - Connection refused for proxy 45.150.227.184:80
+2024-07-03 11:28:20,568 - ERROR - Connection refused for proxy 198.49.68.80:80
+2024-07-03 11:28:20,577 - ERROR - Connection refused for proxy 3.127.121.101:80
+2024-07-03 11:28:20,850 - ERROR - Connection refused for proxy 34.73.158.50:80
+2024-07-03 11:28:20,929 - ERROR - Connection refused for proxy 139.99.237.62:80
+2024-07-03 11:28:21,067 - ERROR - Connection refused for proxy 3.71.239.218:3128
+2024-07-03 11:28:21,210 - ERROR - Connection refused for proxy 87.98.187.57:80
+2024-07-03 11:28:21,227 - ERROR - Connection refused for proxy 167.102.133.106:80
+2024-07-03 11:28:22,770 - ERROR - Connection refused for proxy 72.10.164.178:1025
+2024-07-03 11:28:23,385 - ERROR - Connection refused for proxy 20.219.144.149:3128
+2024-07-03 11:28:23,685 - ERROR - Connection refused for proxy 67.43.227.227:1637
+2024-07-03 11:28:25,667 - ERROR - General error for proxy 111.160.204.146:9091: HTTPConnectionPool(host='111.160.204.146', port=9091): Read timed out. (read timeout=5)
+2024-07-03 11:28:25,933 - ERROR - Connection refused for proxy 211.253.36.172:5001
+2024-07-03 11:28:26,011 - ERROR - General error for proxy 125.77.25.178:8080: HTTPConnectionPool(host='125.77.25.178', port=8080): Read timed out. (read timeout=5)
+2024-07-03 11:28:26,014 - INFO - ====== WebDriver manager ======
+2024-07-03 11:28:26,014 - INFO - ====== WebDriver manager ======
+2024-07-03 11:28:26,015 - INFO - ====== WebDriver manager ======
+2024-07-03 11:28:26,016 - INFO - ====== WebDriver manager ======
+2024-07-03 11:28:26,017 - INFO - ====== WebDriver manager ======
+2024-07-03 11:28:26,992 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 11:28:26,993 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 11:28:26,993 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 11:28:26,993 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 11:28:26,993 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 11:28:28,252 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 11:28:28,279 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 11:28:28,474 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 11:28:28,523 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 11:28:28,893 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 11:28:29,425 - INFO - There is no [win64] chromedriver "126.0.6478.126" for browser google-chrome "126.0.6478" in cache
+2024-07-03 11:28:29,425 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 11:28:29,521 - INFO - There is no [win64] chromedriver "126.0.6478.126" for browser google-chrome "126.0.6478" in cache
+2024-07-03 11:28:29,521 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 11:28:29,628 - INFO - There is no [win64] chromedriver "126.0.6478.126" for browser google-chrome "126.0.6478" in cache
+2024-07-03 11:28:29,628 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 11:28:29,832 - INFO - There is no [win64] chromedriver "126.0.6478.126" for browser google-chrome "126.0.6478" in cache
+2024-07-03 11:28:29,832 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 11:28:30,526 - INFO - There is no [win64] chromedriver "126.0.6478.126" for browser google-chrome "126.0.6478" in cache
+2024-07-03 11:28:30,526 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 11:28:32,180 - INFO - WebDriver version 126.0.6478.126 selected
+2024-07-03 11:28:32,182 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/126.0.6478.126/win32/chromedriver-win32.zip
+2024-07-03 11:28:32,182 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/126.0.6478.126/win32/chromedriver-win32.zip
+2024-07-03 11:28:32,393 - INFO - WebDriver version 126.0.6478.126 selected
+2024-07-03 11:28:32,396 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/126.0.6478.126/win32/chromedriver-win32.zip
+2024-07-03 11:28:32,396 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/126.0.6478.126/win32/chromedriver-win32.zip
+2024-07-03 11:28:32,848 - INFO - WebDriver version 126.0.6478.126 selected
+2024-07-03 11:28:32,851 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/126.0.6478.126/win32/chromedriver-win32.zip
+2024-07-03 11:28:32,852 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/126.0.6478.126/win32/chromedriver-win32.zip
+2024-07-03 11:28:32,974 - INFO - WebDriver version 126.0.6478.126 selected
+2024-07-03 11:28:32,977 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/126.0.6478.126/win32/chromedriver-win32.zip
+2024-07-03 11:28:32,977 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/126.0.6478.126/win32/chromedriver-win32.zip
+2024-07-03 11:28:33,337 - INFO - Driver downloading response is 200
+2024-07-03 11:28:33,564 - INFO - Driver downloading response is 200
+2024-07-03 11:28:34,218 - INFO - Driver downloading response is 200
+2024-07-03 11:28:34,246 - INFO - Driver downloading response is 200
+2024-07-03 11:28:34,714 - INFO - WebDriver version 126.0.6478.126 selected
+2024-07-03 11:28:34,717 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/126.0.6478.126/win32/chromedriver-win32.zip
+2024-07-03 11:28:34,717 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/126.0.6478.126/win32/chromedriver-win32.zip
+2024-07-03 11:28:35,921 - INFO - Driver downloading response is 200
+2024-07-03 11:28:40,678 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 11:28:42,064 - INFO - Driver has been saved in cache [C:\Users\mohan\.wdm\drivers\chromedriver\win64\126.0.6478.126]
+2024-07-03 11:28:42,156 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 11:28:43,441 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 11:28:43,482 - INFO - Driver has been saved in cache [C:\Users\mohan\.wdm\drivers\chromedriver\win64\126.0.6478.126]
+2024-07-03 11:28:44,574 - INFO - Driver has been saved in cache [C:\Users\mohan\.wdm\drivers\chromedriver\win64\126.0.6478.126]
+2024-07-03 11:28:45,202 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 11:28:46,297 - ERROR - Request failed (retries left: 4): [WinError 5] Access is denied: 'C:\\Users\\mohan\\.wdm\\drivers\\chromedriver\\win64\\126.0.6478.126\\chromedriver-win32\\chromedriver.exe' -> 'C:\\Users\\mohan\\.wdm\\drivers\\chromedriver\\win64\\126.0.6478.126\\chromedriver.exe'
+2024-07-03 11:28:46,297 - INFO - Removed invalid proxy: 8.130.36.245:9091
+2024-07-03 11:28:46,397 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 11:28:47,298 - INFO - ====== WebDriver manager ======
+2024-07-03 11:28:47,553 - ERROR - Request failed (retries left: 4): [WinError 5] Access is denied: 'C:\\Users\\mohan\\.wdm\\drivers\\chromedriver\\win64\\126.0.6478.126\\chromedriver-win32\\chromedriver.exe' -> 'C:\\Users\\mohan\\.wdm\\drivers\\chromedriver\\win64\\126.0.6478.126\\chromedriver.exe'
+2024-07-03 11:28:48,157 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 11:28:48,555 - INFO - ====== WebDriver manager ======
+2024-07-03 11:28:49,290 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 11:28:49,489 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 11:28:50,483 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 11:28:50,901 - INFO - Driver [C:\Users\mohan\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+2024-07-03 11:28:52,656 - INFO - Driver [C:\Users\mohan\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+2024-07-03 11:29:21,462 - INFO - Fetched HTML content for page 2
+2024-07-03 11:29:21,466 - WARNING - No search results found on the page.
+2024-07-03 11:29:25,177 - INFO - Fetched HTML content for page 1
+2024-07-03 11:29:25,180 - WARNING - No search results found on the page.
+2024-07-03 11:29:25,529 - INFO - ====== WebDriver manager ======
+2024-07-03 11:29:25,530 - INFO - Fetched results: []
+2024-07-03 11:29:26,289 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 11:29:27,607 - INFO - Fetched HTML content for page 4
+2024-07-03 11:29:27,611 - WARNING - No search results found on the page.
+2024-07-03 11:29:27,827 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 11:29:29,064 - INFO - Driver [C:\Users\mohan\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+2024-07-03 11:29:29,215 - INFO - ====== WebDriver manager ======
+2024-07-03 11:29:29,215 - INFO - Fetched results: []
+2024-07-03 11:29:30,024 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 11:29:31,117 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 11:29:31,657 - INFO - ====== WebDriver manager ======
+2024-07-03 11:29:31,657 - INFO - Fetched results: []
+2024-07-03 11:29:32,242 - INFO - Driver [C:\Users\mohan\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+2024-07-03 11:29:32,402 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 11:29:34,033 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 11:29:35,124 - INFO - Driver [C:\Users\mohan\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+2024-07-03 11:29:35,234 - INFO - Fetched HTML content for page 0
+2024-07-03 11:29:35,238 - WARNING - No search results found on the page.
+2024-07-03 11:29:35,326 - INFO - Fetched HTML content for page 3
+2024-07-03 11:29:35,329 - WARNING - No search results found on the page.
+2024-07-03 11:29:38,818 - ERROR - Request failed (retries left: 4): Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x0076C1C3+27395]
+	(No symbol) [0x00703DC4]
+	(No symbol) [0x00601B7F]
+	(No symbol) [0x005DE483]
+	(No symbol) [0x0066A06F]
+	(No symbol) [0x0067C3D6]
+	(No symbol) [0x00663736]
+	(No symbol) [0x00637541]
+	(No symbol) [0x006380BD]
+	GetHandleVerifier [0x00A23A93+2876371]
+	GetHandleVerifier [0x00A77F5D+3221661]
+	GetHandleVerifier [0x007ED634+556916]
+	GetHandleVerifier [0x007F474C+585868]
+	(No symbol) [0x0070CE04]
+	(No symbol) [0x00709818]
+	(No symbol) [0x007099B7]
+	(No symbol) [0x006FBF0E]
+	BaseThreadInitThunk [0x74F17BA9+25]
+	RtlInitializeExceptionChain [0x7703C10B+107]
+	RtlClearBits [0x7703C08F+191]
+
+2024-07-03 11:29:38,818 - INFO - Removed invalid proxy: 8.130.36.245:9001
+2024-07-03 11:29:39,283 - INFO - ====== WebDriver manager ======
+2024-07-03 11:29:39,283 - INFO - Fetched results: []
+2024-07-03 11:29:39,393 - INFO - ====== WebDriver manager ======
+2024-07-03 11:29:39,393 - INFO - Fetched results: []
+2024-07-03 11:29:39,819 - INFO - ====== WebDriver manager ======
+2024-07-03 11:29:40,105 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 11:29:40,196 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 11:29:40,584 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 11:29:40,848 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/8134616b844283af09a963be9fac788b/source
+2024-07-03 11:29:41,285 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 11:29:41,860 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 11:29:42,280 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 11:29:42,375 - INFO - Driver [C:\Users\mohan\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+2024-07-03 11:29:42,998 - INFO - Driver [C:\Users\mohan\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+2024-07-03 11:29:44,116 - INFO - Driver [C:\Users\mohan\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+2024-07-03 11:29:44,923 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025DD68ABC50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/8134616b844283af09a963be9fac788b/source
