@@ -7,3 +7,7 @@ env/
 .git/
 
 results/
+
+crawler-google-scholar/
+
+resp/
